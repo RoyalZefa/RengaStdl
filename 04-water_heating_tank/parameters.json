@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "defaultName": "Нагревательный бак для воды",
+    "description": "Учебный шаблон накопительного водонагревательного бака",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "TankDiameter",
+          "text": "Диаметр бака",
+          "type": "Length",
+          "default": 500,
+          "min": 200,
+          "max": 1200
+        },
+        {
+          "name": "TankHeight",
+          "text": "Высота бака",
+          "type": "Length",
+          "default": 1200,
+          "min": 400,
+          "max": 3000
+        },
+        {
+          "name": "NozzleLength",
+          "text": "Длина патрубка",
+          "type": "Length",
+          "default": 80,
+          "min": 20,
+          "max": 300
+        },
+        {
+          "name": "ColdWaterLevel",
+          "text": "Высота ввода холодной воды",
+          "type": "Length",
+          "default": 250,
+          "min": 50,
+          "max": 1000
+        },
+        {
+          "name": "HotWaterLevel",
+          "text": "Высота вывода горячей воды",
+          "type": "Length",
+          "default": 950,
+          "min": 100,
+          "max": 2500
+        }
+      ]
+    },
+    {
+      "name": "WaterConnections",
+      "text": "Подключения воды",
+      "params": [
+        {
+          "name": "ConnectionType",
+          "text": "Вид соединения",
+          "type": "CoreEnum",
+          "coreEnumType": "PipeConnectorType",
+          "default": "Thread"
+        },
+        {
+          "name": "ThreadSize",
+          "text": "Номинальный диаметр",
+          "type": "CoreEnum",
+          "coreEnumType": "PipeThreadSize",
+          "default": "D0_75"
+        },
+        {
+          "name": "NominalDiameter",
+          "text": "Номинальный диаметр",
+          "type": "Length",
+          "default": 20,
+          "min": 6,
+          "max": 100
+        },
+        {
+          "name": "PortsSide",
+          "text": "Сторона патрубков",
+          "type": "UserEnum",
+          "default": "right",
+          "items": [
+            {
+              "key": "right",
+              "text": "Справа"
+            },
+            {
+              "key": "left",
+              "text": "Слева"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electric",
+      "text": "Электропитание",
+      "params": [
+        {
+          "name": "CableSide",
+          "text": "Сторона электрического вывода",
+          "type": "UserEnum",
+          "default": "right",
+          "items": [
+            {
+              "key": "right",
+              "text": "Справа"
+            },
+            {
+              "key": "left",
+              "text": "Слева"
+            }
+          ]
+        },
+        {
+          "name": "CableHeight",
+          "text": "Высота электрического вывода",
+          "type": "Length",
+          "default": 150,
+          "min": 50,
+          "max": 1000
+        }
+      ]
+    }
+  ],
+  "ports": [
+    {
+      "name": "ColdWaterInlet",
+      "text": "Холодная вода",
+      "flowDirection": "Inlet",
+      "systemCategories": [
+        "OtherPipeSystem"
+      ]
+    },
+    {
+      "name": "HotWaterOutlet",
+      "text": "Горячая вода",
+      "flowDirection": "Outlet",
+      "systemCategories": [
+        "OtherPipeSystem"
+      ]
+    },
+    {
+      "name": "PowerSupply",
+      "text": "Питание",
+      "systemCategories": [
+        "PowerCircuit"
+      ]
+    }
+  ]
+}

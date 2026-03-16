@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "defaultName": "Новый шаблон",
+    "description": "Стартовый шаблон нового STDL-проекта",
+    "version": "1.0.0",
+    "author": "Your Name"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "Width",
+          "text": "Ширина",
+          "type": "Length",
+          "default": 1000,
+          "min": 10,
+          "max": 10000
+        },
+        {
+          "name": "Depth",
+          "text": "Глубина",
+          "type": "Length",
+          "default": 600,
+          "min": 10,
+          "max": 10000
+        },
+        {
+          "name": "Height",
+          "text": "Высота",
+          "type": "Length",
+          "default": 300,
+          "min": 10,
+          "max": 10000
+        }
+      ]
+    }
+  ],
+  "ports": []
+}

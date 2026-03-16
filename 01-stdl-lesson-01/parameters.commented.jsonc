@@ -1,0 +1,68 @@
+{
+  // Как читать этот файл:
+  // `Типовой каркас STDL из документации Renga`:
+  // `metadata` и массив `styleParameters`.
+  // `Наша логика проекта`:
+  // группа `Dimensions` и три параметра `Width`, `Depth`, `Height`.
+  // В первом уроке JSON специально сделан очень простым,
+  // чтобы было легче понять связь между параметрами и Lua-кодом.
+
+  // metadata - паспорт учебного шаблона.
+  "metadata": {
+    // Имя стиля в Renga.
+    "defaultName": "TutorialBox",
+
+    // Краткое описание проекта.
+    "description": "A minimal STDL lesson project for Renga Style Template Scripting.",
+
+    // Версия шаблона.
+    "version": "1.0.0",
+
+    // Автор примера.
+    "author": "Alex"
+  },
+
+  // styleParameters - список групп параметров,
+  // которые пользователь будет видеть и менять в диалоге стиля.
+  "styleParameters": [
+    {
+      // Единственная группа параметров в этом простом примере.
+      "name": "Dimensions",
+      "text": "Dimensions",
+      "params": [
+        {
+          // Ширина объекта.
+          // Значение затем читается в Lua как `parameters.Dimensions.Width`.
+          "name": "Width",
+          "text": "Width",
+          "type": "Length",
+          "default": 1000,
+          "min": 100,
+          "max": 10000
+        },
+        {
+          // Глубина объекта.
+          "name": "Depth",
+          "text": "Depth",
+          "type": "Length",
+          "default": 600,
+          "min": 100,
+          "max": 10000
+        },
+        {
+          // Высота объекта.
+          "name": "Height",
+          "text": "Height",
+          "type": "Length",
+          "default": 900,
+          "min": 100,
+          "max": 10000
+        }
+      ]
+    }
+  ],
+
+  // ports - список портов объекта.
+  // В этом учебном примере портов нет, поэтому массив пустой.
+  "ports": []
+}
