@@ -1,0 +1,190 @@
+{
+  "metadata": {
+    "defaultName": "Пожарный датчик дыма",
+    "description": "Учебный STDL-шаблон простого пожарного дымового датчика",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "General",
+      "text": "Общие",
+      "params": [
+        {
+          "name": "Material",
+          "text": "Материал",
+          "type": "Id",
+          "entityTypeId": "0abcb18f-0aaf-4509-bf89-5c5fad9d5d8b"
+        }
+      ]
+    },
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "BodyDiameter",
+          "text": "Диаметр корпуса",
+          "type": "Length",
+          "default": 110,
+          "min": 50,
+          "max": 300
+        },
+        {
+          "name": "BodyHeight",
+          "text": "Высота корпуса",
+          "type": "Length",
+          "default": 42,
+          "min": 15,
+          "max": 150
+        },
+        {
+          "name": "BaseDiameter",
+          "text": "Диаметр основания",
+          "type": "Length",
+          "default": 128,
+          "min": 60,
+          "max": 350
+        },
+        {
+          "name": "BaseHeight",
+          "text": "Высота основания",
+          "type": "Length",
+          "default": 8,
+          "min": 2,
+          "max": 40
+        },
+        {
+          "name": "CableLength",
+          "text": "Длина кабельного вывода",
+          "type": "Length",
+          "default": 25,
+          "min": 5,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "name": "Mounting",
+      "text": "Монтаж",
+      "params": [
+        {
+          "name": "MountType",
+          "text": "Тип монтажа",
+          "type": "UserEnum",
+          "default": "Ceiling",
+          "items": [
+            {
+              "key": "Ceiling",
+              "text": "Потолочный"
+            },
+            {
+              "key": "Wall",
+              "text": "Настенный"
+            }
+          ]
+        },
+        {
+          "name": "CeilingOffset",
+          "text": "Отступ от потолка",
+          "type": "Length",
+          "default": 0,
+          "min": 0,
+          "max": 100
+        },
+        {
+          "name": "WallOffset",
+          "text": "Отступ от стены",
+          "type": "Length",
+          "default": 30,
+          "min": 0,
+          "max": 150
+        }
+      ]
+    },
+    {
+      "name": "Indicator",
+      "text": "Индикатор",
+      "params": [
+        {
+          "name": "IndicatorMode",
+          "text": "Режим индикатора",
+          "type": "UserEnum",
+          "default": "BuiltIn",
+          "items": [
+            {
+              "key": "BuiltIn",
+              "text": "Встроенный"
+            },
+            {
+              "key": "Remote",
+              "text": "Выносной"
+            }
+          ]
+        },
+        {
+          "name": "IndicatorDiameter",
+          "text": "Диаметр индикатора",
+          "type": "Length",
+          "default": 10,
+          "min": 3,
+          "max": 40
+        },
+        {
+          "name": "RemoteIndicatorCable",
+          "text": "Длина кабеля выносного индикатора",
+          "type": "Length",
+          "default": 500,
+          "min": 50,
+          "max": 5000
+        }
+      ]
+    },
+    {
+      "name": "Electric",
+      "text": "Электрические подключения",
+      "params": [
+        {
+          "name": "PortLayout",
+          "text": "Расположение клемм",
+          "type": "UserEnum",
+          "default": "Opposite",
+          "items": [
+            {
+              "key": "Opposite",
+              "text": "По разным сторонам"
+            },
+            {
+              "key": "Near",
+              "text": "Рядом"
+            }
+          ]
+        },
+        {
+          "name": "TerminalOffset",
+          "text": "Отступ клемм от центра",
+          "type": "Length",
+          "default": 20,
+          "min": 5,
+          "max": 60
+        }
+      ]
+    }
+  ],
+  "ports": [
+    {
+      "name": "PowerSupply",
+      "text": "Питание",
+      "systemCategories": [
+        "PowerCircuit"
+      ]
+    },
+    {
+      "name": "AlarmLoop",
+      "text": "Шлейф сигнализации",
+      "systemCategories": [
+        "OtherElectricalSystem"
+      ]
+    }
+  ]
+}

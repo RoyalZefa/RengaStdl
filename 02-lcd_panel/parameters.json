@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "defaultName": "LCD панель",
+    "description": "Очень простой учебный шаблон LCD панели",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "PanelWidth",
+          "text": "Ширина панели",
+          "type": "Length",
+          "default": 220,
+          "min": 50,
+          "max": 1000
+        },
+        {
+          "name": "PanelHeight",
+          "text": "Высота панели",
+          "type": "Length",
+          "default": 140,
+          "min": 50,
+          "max": 1000
+        },
+        {
+          "name": "PanelDepth",
+          "text": "Толщина панели",
+          "type": "Length",
+          "default": 18,
+          "min": 5,
+          "max": 100
+        },
+        {
+          "name": "ScreenMargin",
+          "text": "Отступ экрана",
+          "type": "Length",
+          "default": 18,
+          "min": 5,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "name": "Mounting",
+      "text": "Монтаж",
+      "params": [
+        {
+          "name": "MountType",
+          "text": "Тип монтажа",
+          "type": "UserEnum",
+          "default": "Wall",
+          "items": [
+            {
+              "key": "Wall",
+              "text": "Настенный"
+            },
+            {
+              "key": "Table",
+              "text": "Настольный"
+            }
+          ]
+        },
+        {
+          "name": "StandDepth",
+          "text": "Глубина подставки",
+          "type": "Length",
+          "default": 70,
+          "min": 10,
+          "max": 300
+        }
+      ]
+    }
+  ],
+  "ports": []
+}

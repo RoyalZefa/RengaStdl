@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "defaultName": "Комнатный термостат",
+    "description": "Первый самостоятельный учебный проект: комнатный термостат",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "BodyWidth",
+          "text": "Ширина корпуса",
+          "type": "Length",
+          "default": 90,
+          "min": 40,
+          "max": 300
+        },
+        {
+          "name": "BodyHeight",
+          "text": "Высота корпуса",
+          "type": "Length",
+          "default": 90,
+          "min": 40,
+          "max": 300
+        },
+        {
+          "name": "BodyDepth",
+          "text": "Толщина корпуса",
+          "type": "Length",
+          "default": 22,
+          "min": 5,
+          "max": 100
+        },
+        {
+          "name": "DialDiameter",
+          "text": "Диаметр регулятора",
+          "type": "Length",
+          "default": 38,
+          "min": 10,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "name": "Display",
+      "text": "Индикация",
+      "params": [
+        {
+          "name": "HasScreen",
+          "text": "Наличие экрана",
+          "type": "UserEnum",
+          "default": "Yes",
+          "items": [
+            {
+              "key": "Yes",
+              "text": "Да"
+            },
+            {
+              "key": "No",
+              "text": "Нет"
+            }
+          ]
+        },
+        {
+          "name": "ScreenHeight",
+          "text": "Высота экрана",
+          "type": "Length",
+          "default": 20,
+          "min": 5,
+          "max": 80
+        }
+      ]
+    }
+  ],
+  "ports": [
+    {
+      "name": "ControlLine",
+      "text": "Линия управления",
+      "systemCategories": [
+        "OtherElectricalSystem"
+      ]
+    }
+  ]
+}

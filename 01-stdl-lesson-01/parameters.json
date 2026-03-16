@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "defaultName": "TutorialBox",
+    "description": "A minimal STDL lesson project for Renga Style Template Scripting.",
+    "version": "1.0.1",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Объем",
+      "params": [
+        {
+          "name": "Width",
+          "text": "Ширина",
+          "type": "Length",
+          "default": 1000,
+          "min": 100,
+          "max": 10000
+        },
+        {
+          "name": "Depth",
+          "text": "Глубина",
+          "type": "Length",
+          "default": 600,
+          "min": 100,
+          "max": 10000
+        },
+        {
+          "name": "Height",
+          "text": "Высота",
+          "type": "Length",
+          "default": 900,
+          "min": 100,
+          "max": 10000
+        }
+      ]
+    }
+  ],
+  "ports": []
+}
