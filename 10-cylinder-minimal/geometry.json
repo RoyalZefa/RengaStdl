@@ -1,0 +1,57 @@
+{
+  "metadata": {
+    "defaultName": "Минимальный цилиндр",
+    "description": "Учебный STDL-проект только про CreateRightCircularCylinder",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "Radius",
+          "text": "Радиус цилиндра",
+          "type": "Length",
+          "default": 40,
+          "min": 5,
+          "max": 300
+        },
+        {
+          "name": "Height",
+          "text": "Высота цилиндра",
+          "type": "Length",
+          "default": 100,
+          "min": 10,
+          "max": 500
+        },
+        {
+          "name": "ShiftX",
+          "text": "Сдвиг по X",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        },
+        {
+          "name": "ShiftY",
+          "text": "Сдвиг по Y",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        },
+        {
+          "name": "ShiftZ",
+          "text": "Сдвиг по Z",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        }
+      ]
+    }
+  ],
+  "ports": []
+}

@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "defaultName": "Тело вращения с фаской",
+    "description": "Учебный STDL-проект про прямую фаску на цилиндрическом теле",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "Radius",
+          "text": "Базовый радиус",
+          "type": "Length",
+          "default": 40,
+          "min": 5,
+          "max": 300
+        },
+        {
+          "name": "Height",
+          "text": "Высота",
+          "type": "Length",
+          "default": 80,
+          "min": 10,
+          "max": 400
+        },
+        {
+          "name": "StraightChamfer",
+          "text": "Прямая фаска",
+          "type": "Length",
+          "default": 12,
+          "min": 1,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "ports": []
+}

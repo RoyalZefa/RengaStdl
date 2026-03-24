@@ -1,0 +1,148 @@
+{
+  // Учебный JSON для проекта простого подвесного спринклера.
+  // Типовой каркас STDL:
+  // `metadata`, `styleParameters`, `ports`.
+  // Наша логика проекта:
+  // размеры корпуса, рамки, штока, дефлектора и один нижний трубный порт.
+
+  "metadata": {
+    "defaultName": "Спринклер подвесной",
+    "description": "Учебный STDL-шаблон подвесного пожарного спринклера по техническому паспорту",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "BodyDiameter",
+          "text": "Диаметр нижнего корпуса",
+          "type": "Length",
+          "default": 21,
+          "min": 10,
+          "max": 80
+        },
+        {
+          "name": "BodyHeight",
+          "text": "Высота нижнего корпуса",
+          "type": "Length",
+          "default": 16,
+          "min": 5,
+          "max": 80
+        },
+        {
+          "name": "NutDiameter",
+          "text": "Диаметр пояска",
+          "type": "Length",
+          "default": 28,
+          "min": 12,
+          "max": 100
+        },
+        {
+          "name": "NutHeight",
+          "text": "Высота пояска",
+          "type": "Length",
+          "default": 5,
+          "min": 2,
+          "max": 30
+        },
+        {
+          "name": "FrameHeight",
+          "text": "Высота рамки",
+          "type": "Length",
+          "default": 20,
+          "min": 5,
+          "max": 80
+        },
+        {
+          "name": "FrameThickness",
+          "text": "Толщина стоек",
+          "type": "Length",
+          "default": 3,
+          "min": 1,
+          "max": 20
+        },
+        {
+          "name": "FrameOffset",
+          "text": "Смещение стоек от центра",
+          "type": "Length",
+          "default": 8,
+          "min": 2,
+          "max": 30
+        },
+        {
+          "name": "StemDiameter",
+          "text": "Диаметр штока",
+          "type": "Length",
+          "default": 3,
+          "min": 1,
+          "max": 20
+        },
+        {
+          "name": "StemHeight",
+          "text": "Высота штока",
+          "type": "Length",
+          "default": 8,
+          "min": 2,
+          "max": 30
+        },
+        {
+          "name": "DeflectorDiameter",
+          "text": "Диаметр дефлектора",
+          "type": "Length",
+          "default": 28,
+          "min": 10,
+          "max": 120
+        },
+        {
+          "name": "DeflectorThickness",
+          "text": "Толщина дефлектора",
+          "type": "Length",
+          "default": 2,
+          "min": 1,
+          "max": 10
+        }
+      ]
+    },
+    {
+      "name": "Connection",
+      "text": "Подключение",
+      "params": [
+        {
+          "name": "ConnectionType",
+          "text": "Вид соединения",
+          "type": "CoreEnum",
+          "coreEnumType": "PipeConnectorType",
+          "default": "Thread"
+        },
+        {
+          "name": "ThreadSize",
+          "text": "Размер резьбы",
+          "type": "CoreEnum",
+          "coreEnumType": "PipeThreadSize",
+          "default": "D0_50"
+        },
+        {
+          "name": "NominalDiameter",
+          "text": "Условный диаметр",
+          "type": "Length",
+          "default": 15,
+          "min": 5,
+          "max": 50
+        }
+      ]
+    }
+  ],
+  "ports": [
+    {
+      "name": "WaterSupply",
+      "text": "Подвод воды",
+      "flowDirection": "Inlet",
+      "systemCategories": [
+        "OtherPipeSystem"
+      ]
+    }
+  ]
+}

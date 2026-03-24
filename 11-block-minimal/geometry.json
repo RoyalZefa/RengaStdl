@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "defaultName": "Минимальный блок",
+    "description": "Учебный STDL-проект только про CreateBlock",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "Width",
+          "text": "Ширина по X",
+          "type": "Length",
+          "default": 120,
+          "min": 10,
+          "max": 500
+        },
+        {
+          "name": "Depth",
+          "text": "Глубина по Y",
+          "type": "Length",
+          "default": 60,
+          "min": 10,
+          "max": 500
+        },
+        {
+          "name": "Height",
+          "text": "Высота по Z",
+          "type": "Length",
+          "default": 80,
+          "min": 10,
+          "max": 500
+        },
+        {
+          "name": "ShiftX",
+          "text": "Сдвиг по X",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        },
+        {
+          "name": "ShiftY",
+          "text": "Сдвиг по Y",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        },
+        {
+          "name": "ShiftZ",
+          "text": "Сдвиг по Z",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        }
+      ]
+    }
+  ],
+  "ports": []
+}

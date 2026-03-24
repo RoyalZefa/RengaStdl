@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "defaultName": "Зеркалирование Extrude",
+    "description": "Учебный STDL-проект про зеркалирование готового тела через Scale",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "Depth",
+          "text": "Глубина выдавливания",
+          "type": "Length",
+          "default": 20,
+          "min": 1,
+          "max": 200
+        }
+      ]
+    }
+  ],
+  "ports": []
+}

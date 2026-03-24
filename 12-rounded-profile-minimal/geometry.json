@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "defaultName": "Минимальная геометрия со скруглением",
+    "description": "Учебный STDL-проект про профиль по точкам и скругление угла",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "BaseWidth",
+          "text": "Ширина основания",
+          "type": "Length",
+          "default": 120,
+          "min": 20,
+          "max": 500
+        },
+        {
+          "name": "ShoulderHeight",
+          "text": "Высота прямых боковин",
+          "type": "Length",
+          "default": 40,
+          "min": 5,
+          "max": 300
+        },
+        {
+          "name": "TopWidth",
+          "text": "Ширина верхней части",
+          "type": "Length",
+          "default": 60,
+          "min": 10,
+          "max": 400
+        },
+        {
+          "name": "TotalHeight",
+          "text": "Полная высота",
+          "type": "Length",
+          "default": 100,
+          "min": 20,
+          "max": 500
+        },
+        {
+          "name": "Depth",
+          "text": "Глубина выдавливания",
+          "type": "Length",
+          "default": 40,
+          "min": 5,
+          "max": 300
+        },
+        {
+          "name": "FilletRadius",
+          "text": "Радиус скругления",
+          "type": "Length",
+          "default": 20,
+          "min": 1,
+          "max": 200
+        }
+      ]
+    }
+  ],
+  "ports": []
+}

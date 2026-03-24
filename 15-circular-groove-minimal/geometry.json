@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "defaultName": "Вырез из объекта",
+    "description": "Учебный STDL-проект про булеву операцию Subtract",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+  "styleParameters": [
+    {
+      "name": "Body",
+      "text": "Основное тело",
+      "params": [
+        {
+          "name": "Radius",
+          "text": "Радиус цилиндра",
+          "type": "Length",
+          "default": 40,
+          "min": 5,
+          "max": 300
+        },
+        {
+          "name": "Height",
+          "text": "Высота цилиндра",
+          "type": "Length",
+          "default": 80,
+          "min": 10,
+          "max": 500
+        }
+      ]
+    },
+    {
+      "name": "Cut",
+      "text": "Вырезатель",
+      "params": [
+        {
+          "name": "Width",
+          "text": "Ширина выреза",
+          "type": "Length",
+          "default": 24,
+          "min": 1,
+          "max": 200
+        },
+        {
+          "name": "Depth",
+          "text": "Глубина выреза",
+          "type": "Length",
+          "default": 100,
+          "min": 1,
+          "max": 400
+        },
+        {
+          "name": "Height",
+          "text": "Высота выреза",
+          "type": "Length",
+          "default": 160,
+          "min": 1,
+          "max": 600
+        },
+        {
+          "name": "OffsetX",
+          "text": "Смещение выреза по X",
+          "type": "Length",
+          "default": 18,
+          "min": -200,
+          "max": 200
+        }
+      ]
+    }
+  ],
+  "ports": []
+}
