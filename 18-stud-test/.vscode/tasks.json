@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build rst file",
+            "command": "..\\RengaSTDLSDK\\RstBuilder\\RstBuilder.exe",
+            "args": [                 
+                "configuration.json",
+                "run.lua",
+                "-s",
+                "1.0",
+                "-o",
+                "category.rst"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
