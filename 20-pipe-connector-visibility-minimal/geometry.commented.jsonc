@@ -1,0 +1,117 @@
+{
+  // Общая информация о шаблоне.
+  "metadata": {
+    "defaultName": "Трубный порт с enum",
+    "description": "Минимальный учебный пример PipeConnectorType, PipeThreadSize, SetPipeParameters, SetVisible и SetEnabled",
+    "version": "1.0.0",
+    "author": "Codex"
+  },
+
+  // styleParameters - это группы параметров, которые пользователь видит в редакторе стиля.
+  "styleParameters": [
+    {
+      // Простая группа размеров тела.
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "Radius",
+          "text": "Радиус корпуса",
+          "type": "Length",
+          "default": 20,
+          "min": 5,
+          "max": 200
+        },
+        {
+          "name": "Height",
+          "text": "Высота корпуса",
+          "type": "Length",
+          "default": 50,
+          "min": 10,
+          "max": 500
+        }
+      ]
+    },
+    {
+      // Отдельная группа, которая управляет самим портом.
+      // Здесь есть простой переключатель, чтобы показать работу SetEnabled.
+      "name": "PortControl",
+      "text": "Порт",
+      "params": [
+        {
+          "name": "PortState",
+          "text": "Показывать порт",
+          "type": "UserEnum",
+          "default": "Enabled",
+          "items": [
+            {
+              "key": "Enabled",
+              "text": "Да"
+            },
+            {
+              "key": "Disabled",
+              "text": "Нет"
+            }
+          ]
+        },
+        {
+          "name": "PortHeight",
+          "text": "Высота бокового порта",
+          "type": "Length",
+          "default": 25,
+          "min": 0,
+          "max": 500
+        }
+      ]
+    },
+    {
+      // Самая важная группа этого урока.
+      // Здесь видно, что enum - это параметр с фиксированным списком допустимых значений.
+      "name": "Connection",
+      "text": "Подключение",
+      "params": [
+        {
+          // CoreEnum берет значения из SDK Renga.
+          // PipeConnectorType - это реальные типы трубных соединений:
+          // Weld, Flange, Thread и другие.
+          "name": "ConnectionType",
+          "text": "Тип соединения",
+          "type": "CoreEnum",
+          "coreEnumType": "PipeConnectorType",
+          "default": "Thread"
+        },
+        {
+          // PipeThreadSize - тоже enum из SDK.
+          // Он нужен только для резьбового соединения.
+          "name": "ThreadSize",
+          "text": "Размер резьбы",
+          "type": "CoreEnum",
+          "coreEnumType": "PipeThreadSize",
+          "default": "D0_50"
+        },
+        {
+          // Обычный числовой параметр, который нужен
+          // для не резьбовых соединений.
+          "name": "NominalDiameter",
+          "text": "Номинальный диаметр",
+          "type": "Length",
+          "default": 15,
+          "min": 1,
+          "max": 200
+        }
+      ]
+    }
+  ],
+
+  // Один трубный порт.
+  "ports": [
+    {
+      "name": "WaterInlet",
+      "text": "Подвод воды",
+      "flowDirection": "Inlet",
+      "systemCategories": [
+        "OtherPipeSystem"
+      ]
+    }
+  ]
+}

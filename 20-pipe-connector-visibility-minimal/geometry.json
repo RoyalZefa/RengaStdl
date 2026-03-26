@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "defaultName": "Трубный порт с enum",
+    "description": "Минимальный учебный пример PipeConnectorType, PipeThreadSize, SetPipeParameters, SetVisible и SetEnabled",
+    "version": "1.0.0",
+    "author": "Codex"
+  },
+  "styleParameters": [
+    {
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "Radius",
+          "text": "Радиус корпуса",
+          "type": "Length",
+          "default": 20,
+          "min": 5,
+          "max": 200
+        },
+        {
+          "name": "Height",
+          "text": "Высота корпуса",
+          "type": "Length",
+          "default": 50,
+          "min": 10,
+          "max": 500
+        }
+      ]
+    },
+    {
+      "name": "PortControl",
+      "text": "Порт",
+      "params": [
+        {
+          "name": "PortState",
+          "text": "Показывать порт",
+          "type": "UserEnum",
+          "default": "Enabled",
+          "items": [
+            {
+              "key": "Enabled",
+              "text": "Да"
+            },
+            {
+              "key": "Disabled",
+              "text": "Нет"
+            }
+          ]
+        },
+        {
+          "name": "PortHeight",
+          "text": "Высота бокового порта",
+          "type": "Length",
+          "default": 25,
+          "min": 0,
+          "max": 500
+        }
+      ]
+    },
+    {
+      "name": "Connection",
+      "text": "Подключение",
+      "params": [
+        {
+          "name": "ConnectionType",
+          "text": "Тип соединения",
+          "type": "CoreEnum",
+          "coreEnumType": "PipeConnectorType",
+          "default": "Thread"
+        },
+        {
+          "name": "ThreadSize",
+          "text": "Размер резьбы",
+          "type": "CoreEnum",
+          "coreEnumType": "PipeThreadSize",
+          "default": "D0_50"
+        },
+        {
+          "name": "NominalDiameter",
+          "text": "Номинальный диаметр",
+          "type": "Length",
+          "default": 15,
+          "min": 1,
+          "max": 200
+        }
+      ]
+    }
+  ],
+  "ports": [
+    {
+      "name": "WaterInlet",
+      "text": "Подвод воды",
+      "flowDirection": "Inlet",
+      "systemCategories": [
+        "OtherPipeSystem"
+      ]
+    }
+  ]
+}

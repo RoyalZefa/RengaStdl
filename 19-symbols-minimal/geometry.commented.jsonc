@@ -1,0 +1,86 @@
+{
+  // Как читать этот файл:
+  // `Типовой каркас STDL`:
+  // metadata, styleParameters и ports.
+  // `Логика именно этого примера`:
+  // у нас есть группа размеров для 3D-формы
+  // и отдельная группа Symbols только для размера 2D-символа.
+
+  "metadata": {
+    "defaultName": "Минимальные символы",
+    "description": "Учебный STDL-проект про простую геометрию и базовые 2D-символы из library.lua",
+    "version": "1.0.0",
+    "author": "Alex"
+  },
+
+  "styleParameters": [
+    {
+      // Размеры 3D-объекта.
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "BaseWidth",
+          "text": "Ширина основания",
+          "type": "Length",
+          "default": 120,
+          "min": 20,
+          "max": 500
+        },
+        {
+          "name": "ShoulderHeight",
+          "text": "Высота прямых боковин",
+          "type": "Length",
+          "default": 40,
+          "min": 5,
+          "max": 300
+        },
+        {
+          "name": "TopWidth",
+          "text": "Ширина верхней части",
+          "type": "Length",
+          "default": 60,
+          "min": 10,
+          "max": 400
+        },
+        {
+          "name": "TotalHeight",
+          "text": "Полная высота",
+          "type": "Length",
+          "default": 100,
+          "min": 20,
+          "max": 500
+        },
+        {
+          "name": "Depth",
+          "text": "Глубина выдавливания",
+          "type": "Length",
+          "default": 40,
+          "min": 5,
+          "max": 300
+        }
+      ]
+    },
+    {
+      // Параметры именно для символов.
+      "name": "Symbols",
+      "text": "Символы",
+      "params": [
+        {
+          // Общий размер символа.
+          // Один и тот же параметр можно использовать для нескольких вариантов символики.
+          "name": "SymbolSize",
+          "text": "Размер символа",
+          "type": "Length",
+          "default": 60,
+          "min": 10,
+          "max": 300
+        }
+      ]
+    }
+  ],
+
+  // В этом примере портов нет:
+  // мы изучаем только простую 3D-геометрию и символы.
+  "ports": []
+}

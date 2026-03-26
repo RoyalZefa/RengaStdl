@@ -1,0 +1,110 @@
+{
+  // Общая информация о шаблоне.
+  "metadata": {
+    "defaultName": "Цилиндр с портами",
+    "description": "Минимальный учебный пример размещения портов на цилиндре",
+    "version": "1.0.0",
+    "author": "Codex"
+  },
+
+  // Параметры разделены по группам.
+  "styleParameters": [
+    {
+      // Геометрия самого цилиндра.
+      "name": "Dimensions",
+      "text": "Габариты",
+      "params": [
+        {
+          "name": "Radius",
+          "text": "Радиус",
+          "type": "Length",
+          "default": 40,
+          "min": 5,
+          "max": 300
+        },
+        {
+          "name": "Height",
+          "text": "Высота",
+          "type": "Length",
+          "default": 100,
+          "min": 10,
+          "max": 500
+        },
+        {
+          "name": "ShiftX",
+          "text": "Смещение по X",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        },
+        {
+          "name": "ShiftY",
+          "text": "Смещение по Y",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        },
+        {
+          "name": "ShiftZ",
+          "text": "Смещение по Z",
+          "type": "Length",
+          "default": 0,
+          "min": -500,
+          "max": 500
+        }
+      ]
+    },
+    {
+      // Отдельная группа для портов.
+      "name": "Ports",
+      "text": "Порты",
+      "params": [
+        {
+          "name": "PortHeight",
+          "text": "Высота боковых портов",
+          "type": "Length",
+          "default": 20,
+          "min": 0,
+          "max": 500
+        },
+        {
+          // Этот параметр в текущем примере почти не используется,
+          // но оставлен как удобное место для самостоятельных экспериментов.
+          "name": "PortDepth",
+          "text": "Служебный параметр для экспериментов",
+          "type": "Length",
+          "default": 20,
+          "min": 0,
+          "max": 500
+        }
+      ]
+    }
+  ],
+
+  // Три порта: слева, справа и сверху.
+  "ports": [
+    {
+      "name": "LeftPort",
+      "text": "Левый порт",
+      "systemCategories": [
+        "OtherElectricalSystem"
+      ]
+    },
+    {
+      "name": "RightPort",
+      "text": "Правый порт",
+      "systemCategories": [
+        "OtherElectricalSystem"
+      ]
+    },
+    {
+      "name": "TopPort",
+      "text": "Верхний порт",
+      "systemCategories": [
+        "OtherElectricalSystem"
+      ]
+    }
+  ]
+}
