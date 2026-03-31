@@ -1,0 +1,762 @@
+{
+  "name": "Type mapping",
+  "type": "export",
+  "version": "4",
+  "IfcSpace.INTERNAL": [
+    "{f1a805ff-573d-f46b-ffba-57f4bccaa6ed}"
+  ],
+  "IfcMaterial": [
+    "{0abcb18f-0aaf-4509-bf89-5c5fad9d5d8b}"
+  ],
+  "IfcMaterialLayerSet": [
+    "{0f0adba0-5c06-46c0-9c8a-b9d69ef1251f}"
+  ],
+  "IfcGridAxis": [
+    "{4b41ccf8-c969-4c55-a1f2-cced9c164f07}"
+  ],
+  "IfcWall.STANDARD": [
+    "{4329112a-6b65-48d9-9da8-abf1f8f36327}"
+  ],
+  "IfcColumn": [
+    "{d9ee2442-e807-42fb-8fe5-9dcfe543035d}"
+  ],
+  "IfcColumnType.COLUMN": [
+    "{be49a354-19b7-435a-8957-9ef8782630c2}"
+  ],
+  "IfcBeam": [
+    "{63478188-7c88-4a6d-b891-9725f04a5bc7}"
+  ],
+  "IfcBeamType.BEAM": [
+    "{cf2b8b04-f595-4432-98f4-8234c95adbdd}"
+  ],
+  "IfcSlab.FLOOR": [
+    "{f5bd8bd8-39c1-47f8-8499-f673c580dfbe}"
+  ],
+  "IfcRoof.NOTDEFINED": [
+    "{bac4470f-d560-4f57-a49e-faa5f6e5a279}"
+  ],
+  "IfcStairFlight.NOTDEFINED": [
+    "{3f522f49-aee2-4d73-9866-9b07cf336a69}"
+  ],
+  "IfcRampFlight.NOTDEFINED": [
+    "{debde004-afcc-4da8-8dd0-4223ff836acd}"
+  ],
+  "IfcRailing.GUARDRAIL": [
+    "{a1aca786-78a4-4015-b412-9150baad71a9}"
+  ],
+  "IfcFooting.PAD_FOOTING": [
+    "{6063816c-89ff-4c8f-a814-3be6cb94128e}"
+  ],
+  "IfcFooting.STRIP_FOOTING": [
+    "{d7dd0293-dd65-4229-a64c-8b528d4e226f}"
+  ],
+  "IfcWindow": [
+    "{2b02b353-2ca5-4566-88bb-917ea8460174}.{bd23e918-332c-4c8a-80e9-9231b8e18f50}"
+  ],
+  "IfcWindowType.WINDOW": [
+    "{fac43446-031c-413e-9993-6e9cf9f2306a}"
+  ],
+  "IfcDoor": [
+    "{1cfba99c-01e7-4078-ae1a-3e2ff0673599}.{80c34eed-5232-4cd7-8925-177ee02934d8}"
+  ],
+  "IfcDoorType.DOOR": [
+    "{19d0649f-582a-488e-a52b-585c1151a5e4}"
+  ],
+  "IfcOpeningElement.NOTDEFINED": [
+    "{fc443d5a-b76c-45e5-b91c-520ef0896109}"
+  ],
+  "IfcVoidingFeature.HOLE": [
+    "{ecef8f90-0cf9-4494-98de-91242a2a9f5c}"
+  ],
+  "IfcOpeningElement.OPENING": [
+    "{1cfba99c-01e7-4078-ae1a-3e2ff0673599}.{5a4a5eb1-14df-4a2a-8f83-231e31fc41b5}",
+    "{1cfba99c-01e7-4078-ae1a-3e2ff0673599}.{a7a8e180-242a-47e7-8f79-9eb6bc0caf50}",
+    "{2b02b353-2ca5-4566-88bb-917ea8460174}.{d01c7085-4984-4789-b009-92d7f2f0b2c1}",
+    "{2b02b353-2ca5-4566-88bb-917ea8460174}.{f9e27c1c-e123-4a7e-907f-18466c5cfe2a}"
+  ],
+  "IfcPlate": [
+    "{62cf086e-5a39-4484-840c-ffa6a1c6e2b7}"
+  ],
+  "IfcPlateType.SHEET": [
+    "{9b60d6ad-3468-478e-94df-a535c5aeaa3e}"
+  ],
+  "IfcElementAssembly.NOTDEFINED": [
+    "{00799249-1824-4ebd-bf93-40bb92efa9e6}"
+  ],
+  "IfcBuildingElementProxy": [
+    "{e1e3bd66-2e13-4fa4-a9eb-677e03067c2f}",
+    "{67a0b42c-8c1e-47e8-b46e-78d8bb260de0}"
+  ],
+  "IfcBuildingElementProxyType.NOTDEFINED": [
+    "{514a3ae7-f551-4d0f-b5ba-5d4f0ecf4e7a}"
+  ],
+  "IfcReinforcingBar.MAIN": [
+    "{9fabc932-590f-4068-89a8-ee6ee3d7cbbf}"
+  ],
+  "IfcSanitaryTerminal": [
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{6b50d09e-22fd-4308-b0d6-bdf43caf38a1}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{6b50d166-22fd-4308-b0d6-bdf43caf38a1}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{b53ea743-d655-4b73-a8f0-58ce6372cbd7}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{b53ea80b-d655-4b73-a8f0-58ce6372cbd7}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{22fff3b4-11c2-431f-b269-c08a1e002dd0}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{22fff47c-11c2-431f-b269-c08a1e002dd0}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{49bf0e1d-7c9b-4c9e-84ed-39a7dcbea21b}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{49bf0ee5-7c9b-4c9e-84ed-39a7dcbea21b}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{fd20d813-2e31-4f57-a4d8-33161593c920}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{fd20d8db-2e31-4f57-a4d8-33161593c920}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{db5f9d13-3557-47b1-98da-138a777d887b}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{db5f9ddb-3557-47b1-98da-138a777d887b}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{b23cbaed-f3eb-4943-81d3-c3398ea5618c}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{b23cbbb5-f3eb-4943-81d3-c3398ea5618c}"
+  ],
+  "IfcWasteTerminal": [
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{81a58283-7ad7-4c98-9441-587b3f1ec210}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{81a5834b-7ad7-4c98-9441-587b3f1ec210}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{b5db56c3-577d-46dd-97f0-3ceff84dd761}",
+    "{b8c7155a-b462-4ff5-bc41-c9c17a9f48fa}.{b5db578b-577d-46dd-97f0-3ceff84dd761}"
+  ],
+  "IfcSanitaryTerminalType.TOILETPAN": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{6b50d09e-22fd-4308-b0d6-bdf43caf38a1}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{6b50d166-22fd-4308-b0d6-bdf43caf38a1}"
+  ],
+  "IfcSanitaryTerminalType.WASHHANDBASIN": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{b53ea743-d655-4b73-a8f0-58ce6372cbd7}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{b53ea80b-d655-4b73-a8f0-58ce6372cbd7}"
+  ],
+  "IfcSanitaryTerminalType.BATH": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{22fff3b4-11c2-431f-b269-c08a1e002dd0}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{22fff47c-11c2-431f-b269-c08a1e002dd0}"
+  ],
+  "IfcSanitaryTerminalType.SINK": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{49bf0e1d-7c9b-4c9e-84ed-39a7dcbea21b}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{49bf0ee5-7c9b-4c9e-84ed-39a7dcbea21b}"
+  ],
+  "IfcSanitaryTerminalType.SHOWER": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{fd20d813-2e31-4f57-a4d8-33161593c920}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{fd20d8db-2e31-4f57-a4d8-33161593c920}"
+  ],
+  "IfcSanitaryTerminalType.BIDET": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{db5f9d13-3557-47b1-98da-138a777d887b}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{db5f9ddb-3557-47b1-98da-138a777d887b}"
+  ],
+  "IfcSanitaryTerminalType.URINAL": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{b23cbaed-f3eb-4943-81d3-c3398ea5618c}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{b23cbbb5-f3eb-4943-81d3-c3398ea5618c}"
+  ],
+  "IfcWasteTerminalType.FLOORWASTE": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{81a58283-7ad7-4c98-9441-587b3f1ec210}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{81a5834b-7ad7-4c98-9441-587b3f1ec210}"
+  ],
+  "IfcWasteTerminalType.ROOFDRAIN": [
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{b5db56c3-577d-46dd-97f0-3ceff84dd761}",
+    "{344299f5-7d7f-43e2-b0a2-1db8e06e8ac8}.{b5db578b-577d-46dd-97f0-3ceff84dd761}"
+  ],
+  "IfcValveType.FAUCET": [
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{abd555c0-6346-4c9e-b07f-e75da06b19e4}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{abd55688-6346-4c9e-b07f-e75da06b19e4}"
+  ],
+  "IfcPump": [
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{2f157ab0-374e-40e7-a28f-d1b54680adab}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{2f157b78-374e-40e7-a28f-d1b54680adab}"
+  ],
+  "IfcPumpType.NOTDEFINED": [
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{2f157ab0-374e-40e7-a28f-d1b54680adab}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{2f157b78-374e-40e7-a28f-d1b54680adab}"
+  ],
+  "IfcElectricApplianceType.WASHINGMACHINE": [
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{4a05267e-f540-4012-b791-602c42280760}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{4a052746-f540-4012-b791-602c42280760}"
+  ],
+  "IfcElectricAppliance": [
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{4a05267e-f540-4012-b791-602c42280760}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{4a052746-f540-4012-b791-602c42280760}"
+  ],
+  "IfcSpaceHeater": [
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{6ab76da1-f52e-48a2-9770-9a3fe5019cce}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{6ab76e69-f52e-48a2-9770-9a3fe5019cce}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{f2050217-ea8f-4bc1-bad4-f04aec2d48f7}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{f20502df-ea8f-4bc1-bad4-f04aec2d48f7}"
+  ],
+  "IfcSpaceHeaterType.RADIATOR": [
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{6ab76da1-f52e-48a2-9770-9a3fe5019cce}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{6ab76e69-f52e-48a2-9770-9a3fe5019cce}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{f2050217-ea8f-4bc1-bad4-f04aec2d48f7}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{f20502df-ea8f-4bc1-bad4-f04aec2d48f7}"
+  ],
+  "IfcTank": [
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{ec641f08-4a95-46c8-a2f2-151a9aed41ea}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{ec641fd0-4a95-46c8-a2f2-151a9aed41ea}"
+  ],
+  "IfcTankType.EXPANSION": [
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{ec641f08-4a95-46c8-a2f2-151a9aed41ea}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{ec641fd0-4a95-46c8-a2f2-151a9aed41ea}"
+  ],
+  "IfcBoiler": [
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{30810a2c-dbca-4939-afa2-1f24abead046}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{30810af4-dbca-4939-afa2-1f24abead046}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{50f9ea41-7519-469c-9187-0346d9182971}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{50f9eb09-7519-469c-9187-0346d9182971}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{5a54b1da-cd66-417b-a46c-bfad8ed9f6be}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{5a54b2a2-cd66-417b-a46c-bfad8ed9f6be}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{b760935d-91c4-4a3e-91eb-c767ab4338f1}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{b7609425-91c4-4a3e-91eb-c767ab4338f1}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{499afd32-e059-43b7-814f-cb67cd189c69}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{499afdfa-e059-43b7-814f-cb67cd189c69}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{e8ddc531-b556-40dc-a8ac-a655fa777ac5}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{e8ddc5f9-b556-40dc-a8ac-a655fa777ac5}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{33587590-fd15-4ecc-bb66-3bacffc726e7}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{33587658-fd15-4ecc-bb66-3bacffc726e7}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{0827953d-c21b-4766-9e45-4c135f571548}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{08279605-c21b-4766-9e45-4c135f571548}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{cf3cbb83-a39f-4bc6-bfaf-6d78c08b54b8}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{cf3cbc4b-a39f-4bc6-bfaf-6d78c08b54b8}"
+  ],
+  "IfcBoilerType.WATER": [
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{30810a2c-dbca-4939-afa2-1f24abead046}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{30810af4-dbca-4939-afa2-1f24abead046}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{50f9ea41-7519-469c-9187-0346d9182971}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{50f9eb09-7519-469c-9187-0346d9182971}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{5a54b1da-cd66-417b-a46c-bfad8ed9f6be}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{5a54b2a2-cd66-417b-a46c-bfad8ed9f6be}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{b760935d-91c4-4a3e-91eb-c767ab4338f1}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{b7609425-91c4-4a3e-91eb-c767ab4338f1}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{499afd32-e059-43b7-814f-cb67cd189c69}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{499afdfa-e059-43b7-814f-cb67cd189c69}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{e8ddc531-b556-40dc-a8ac-a655fa777ac5}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{e8ddc5f9-b556-40dc-a8ac-a655fa777ac5}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{33587590-fd15-4ecc-bb66-3bacffc726e7}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{33587658-fd15-4ecc-bb66-3bacffc726e7}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{0827953d-c21b-4766-9e45-4c135f571548}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{08279605-c21b-4766-9e45-4c135f571548}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{cf3cbb83-a39f-4bc6-bfaf-6d78c08b54b8}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{cf3cbc4b-a39f-4bc6-bfaf-6d78c08b54b8}"
+  ],
+  "IfcValve": [
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{abd555c0-6346-4c9e-b07f-e75da06b19e4}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{abd55688-6346-4c9e-b07f-e75da06b19e4}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{aaf5196b-8317-443d-a7d3-c9c2b9c1a6f0}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{aaf51a33-8317-443d-a7d3-c9c2b9c1a6f0}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{e6df9e9f-ecec-44d9-9068-5894dd2b80f9}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{e6df9f67-ecec-44d9-9068-5894dd2b80f9}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{df9a0d48-dfea-4b77-b90c-30b028950d1e}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{df9a0e10-dfea-4b77-b90c-30b028950d1e}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{6ff56356-e141-46b1-a4c9-4a7bb157fd9a}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{6ff5641e-e141-46b1-a4c9-4a7bb157fd9a}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{05f2931f-0396-4876-88a2-804394acc059}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{5ed3310e-fb48-4a22-b3e0-35ac49f776bf}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{3ec30b5c-6039-472e-9a4c-0e5b72733760}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{3ec30c24-6039-472e-9a4c-0e5b72733760}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{f649541c-37b0-4863-bee2-9da60107b23f}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{f64954e4-37b0-4863-bee2-9da60107b23f}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{ef1e28d6-146e-493e-8f69-3aebbf0530f0}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{ef1e299e-146e-493e-8f69-3aebbf0530f0}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{4a04dbbf-ba90-431e-8425-4673835cba34}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{4a04dc87-ba90-431e-8425-4673835cba34}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{ac845703-75da-4802-ae2e-ffe00b5f2e46}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{ac8457cb-75da-4802-ae2e-ffe00b5f2e46}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{8b5976ed-b217-4f48-9367-236e3a844cb2}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{8b5977b5-b217-4f48-9367-236e3a844cb2}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{368562ba-1767-49e6-bcc9-e8caa4d49819}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{36856382-1767-49e6-bcc9-e8caa4d49819}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{548d5184-0f43-4345-9048-13172d5853e8}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{548d524c-0f43-4345-9048-13172d5853e8}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{0537c909-c527-4fbe-961a-fb1d354032d0}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{4a760731-de95-41f0-9f19-09125288e93e}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{62af75c7-fb6d-471a-8179-d6ee8ec61b4f}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{62af768f-fb6d-471a-8179-d6ee8ec61b4f}"
+  ],
+  "IfcValveType.ISOLATING": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{aaf5196b-8317-443d-a7d3-c9c2b9c1a6f0}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{aaf51a33-8317-443d-a7d3-c9c2b9c1a6f0}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{7d3826c0-4c15-4111-af78-7f07c46aecd9}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{e6df9e9f-ecec-44d9-9068-5894dd2b80f9}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{e6df9f67-ecec-44d9-9068-5894dd2b80f9}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{df9a0d48-dfea-4b77-b90c-30b028950d1e}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{df9a0e10-dfea-4b77-b90c-30b028950d1e}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{6ff56356-e141-46b1-a4c9-4a7bb157fd9a}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{6ff5641e-e141-46b1-a4c9-4a7bb157fd9a}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{548d5184-0f43-4345-9048-13172d5853e8}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{548d524c-0f43-4345-9048-13172d5853e8}"
+  ],
+  "IfcValveType.CHECK": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{05f2931f-0396-4876-88a2-804394acc059}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{5ed3310e-fb48-4a22-b3e0-35ac49f776bf}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{0537c909-c527-4fbe-961a-fb1d354032d0}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{4a760731-de95-41f0-9f19-09125288e93e}"
+  ],
+  "IfcValveType.REGULATING": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{f649541c-37b0-4863-bee2-9da60107b23f}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{f64954e4-37b0-4863-bee2-9da60107b23f}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{ef1e28d6-146e-493e-8f69-3aebbf0530f0}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{ef1e299e-146e-493e-8f69-3aebbf0530f0}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{4a04dbbf-ba90-431e-8425-4673835cba34}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{4a04dc87-ba90-431e-8425-4673835cba34}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{62af75c7-fb6d-471a-8179-d6ee8ec61b4f}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{62af768f-fb6d-471a-8179-d6ee8ec61b4f}"
+  ],
+  "IfcValveType.PRESSURERELIEF": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{ac845703-75da-4802-ae2e-ffe00b5f2e46}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{ac8457cb-75da-4802-ae2e-ffe00b5f2e46}"
+  ],
+  "IfcValveType.PRESSUREREDUCING": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{8b5976ed-b217-4f48-9367-236e3a844cb2}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{8b5977b5-b217-4f48-9367-236e3a844cb2}"
+  ],
+  "IfcValveType.AIRRELEASE": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{368562ba-1767-49e6-bcc9-e8caa4d49819}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{36856382-1767-49e6-bcc9-e8caa4d49819}"
+  ],
+  "IfcFilter": [
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{7ad44d4d-f4f3-4ffa-9d2b-e6ea378a7353}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{7ad44e15-f4f3-4ffa-9d2b-e6ea378a7353}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{3191b046-8c63-4ee3-ae2d-41b0a53bd003}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{3191b10e-8c63-4ee3-ae2d-41b0a53bd003}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{5f446335-386f-4325-8448-abe83dac9f96}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{5f4463fd-386f-4325-8448-abe83dac9f96}"
+  ],
+  "IfcFilterType.STRAINER": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{7ad44d4d-f4f3-4ffa-9d2b-e6ea378a7353}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{7ad44e15-f4f3-4ffa-9d2b-e6ea378a7353}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{3191b046-8c63-4ee3-ae2d-41b0a53bd003}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{3191b10e-8c63-4ee3-ae2d-41b0a53bd003}"
+  ],
+  "IfcFlowMeter": [
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{c2e87519-6af7-4e75-b3bf-ad6f597b4448}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{c2e875e1-6af7-4e75-b3bf-ad6f597b4448}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{0e0ba26b-5dc1-4210-9218-f56bdd1b773e}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{0e0ba333-5dc1-4210-9218-f56bdd1b773e}"
+  ],
+  "IfcFlowMeterType.WATERMETER": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{c2e87519-6af7-4e75-b3bf-ad6f597b4448}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{c2e875e1-6af7-4e75-b3bf-ad6f597b4448}"
+  ],
+  "IfcFlowMeterType.ENERGYMETER": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{0e0ba26b-5dc1-4210-9218-f56bdd1b773e}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{0e0ba333-5dc1-4210-9218-f56bdd1b773e}"
+  ],
+  "IfcFlowInstrument": [
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{c38f6be8-ac83-4add-8df8-1dbd9d6f0ba0}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{c38f6cb0-ac83-4add-8df8-1dbd9d6f0ba0}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{dc16b3a8-6ee4-483b-a10d-d073aa01f7ae}",
+    "{41e2788a-49ed-487f-9ae1-55b6e09ae6e5}.{dc16b470-6ee4-483b-a10d-d073aa01f7ae}"
+  ],
+  "IfcFlowInstrumentType.PRESSUREGAUGE": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{c38f6be8-ac83-4add-8df8-1dbd9d6f0ba0}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{c38f6cb0-ac83-4add-8df8-1dbd9d6f0ba0}"
+  ],
+  "IfcFlowInstrumentType.THERMOMETER": [
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{dc16b3a8-6ee4-483b-a10d-d073aa01f7ae}",
+    "{a31cf7ca-f17b-422a-886a-7a8c362cd49a}.{dc16b470-6ee4-483b-a10d-d073aa01f7ae}"
+  ],
+  "IfcPipeFitting": [
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{8f37ff4e-1881-40ef-9e70-68dbd869e00d}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{8f380016-1881-40ef-9e70-68dbd869e00d}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{8f37ff4f-1881-40ef-9e70-68dbd869e00d}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{8f380017-1881-40ef-9e70-68dbd869e00d}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{8f37ff50-1881-40ef-9e70-68dbd869e00d}",
+    "{5d2f3734-5a49-4504-90b1-0676f0f25da7}.{8f380018-1881-40ef-9e70-68dbd869e00d}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{a8ab4dd7-28f7-4ef8-9fa0-6897ab556a63}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{a8ab4e9f-28f7-4ef8-9fa0-6897ab556a63}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{3f8c91b2-402f-4ddb-8c0e-aa5f122d9276}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{3f8c927a-402f-4ddb-8c0e-aa5f122d9276}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{639b3516-b3f6-4414-9339-8e71da603f69}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{639b35de-b3f6-4414-9339-8e71da603f69}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{15d55530-0541-48df-85e1-ab242e65e21e}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{15d555f8-0541-48df-85e1-ab242e65e21e}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{ae4dc5c5-d58d-4cbc-aa4d-a34e7d30dab7}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{ae4dc68d-d58d-4cbc-aa4d-a34e7d30dab7}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{b41d00dc-db88-4bf8-b907-cc2393cdc118}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{b41d01a4-db88-4bf8-b907-cc2393cdc118}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{20707b97-97ec-428d-92f2-11b8c19d48f4}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{20707c5f-97ec-428d-92f2-11b8c19d48f4}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{b1111c2d-46a4-4f50-b510-31cf8802de9b}",
+    "{d31dc2e3-808e-4987-8481-7f86665a07fc}.{b1111cf5-46a4-4f50-b510-31cf8802de9b}"
+  ],
+  "IfcPipeFittingType.NOTDEFINED": [
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{20707b97-97ec-428d-92f2-11b8c19d48f4}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{20707c5f-97ec-428d-92f2-11b8c19d48f4}"
+  ],
+  "IfcPipeFittingType.BEND": [
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{15d55530-0541-48df-85e1-ab242e65e21e}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{15d555f8-0541-48df-85e1-ab242e65e21e}"
+  ],
+  "IfcPipeFittingType.JUNCTION": [
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{8f37ff4e-1881-40ef-9e70-68dbd869e00d}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{8f380016-1881-40ef-9e70-68dbd869e00d}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{8f37ff4f-1881-40ef-9e70-68dbd869e00d}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{8f380017-1881-40ef-9e70-68dbd869e00d}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{8f37ff50-1881-40ef-9e70-68dbd869e00d}",
+    "{a369ad70-c1fe-41dd-af3d-bd659ea5b360}.{8f380018-1881-40ef-9e70-68dbd869e00d}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{3f8c91b2-402f-4ddb-8c0e-aa5f122d9276}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{3f8c927a-402f-4ddb-8c0e-aa5f122d9276}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{b1111c2d-46a4-4f50-b510-31cf8802de9b}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{b1111cf5-46a4-4f50-b510-31cf8802de9b}"
+  ],
+  "IfcPipeFittingType.TRANSITION": [
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{b41d00dc-db88-4bf8-b907-cc2393cdc118}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{b41d01a4-db88-4bf8-b907-cc2393cdc118}"
+  ],
+  "IfcPipeFittingType.CONNECTOR": [
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{639b3516-b3f6-4414-9339-8e71da603f69}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{639b35de-b3f6-4414-9339-8e71da603f69}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{ae4dc5c5-d58d-4cbc-aa4d-a34e7d30dab7}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{ae4dc68d-d58d-4cbc-aa4d-a34e7d30dab7}"
+  ],
+  "IfcPipeFittingType.OBSTRUCTION": [
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{a8ab4dd7-28f7-4ef8-9fa0-6897ab556a63}",
+    "{b1359bdc-f7ff-43a4-bca0-8d09bc974537}.{a8ab4e9f-28f7-4ef8-9fa0-6897ab556a63}"
+  ],
+  "IfcAirTerminal": [
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{3f645375-7a31-4220-9bc7-da8315b87e06}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{3f64543d-7a31-4220-9bc7-da8315b87e06}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{1ba8db8e-ed3f-4dc7-806c-06106fb0201f}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{1ba8dc56-ed3f-4dc7-806c-06106fb0201f}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{28544fa8-76cc-4c95-aa0e-864a7f07d691}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{28545070-76cc-4c95-aa0e-864a7f07d691}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{a54a1cbd-38d0-4525-b055-ece8547397c9}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{a54a1d85-38d0-4525-b055-ece8547397c9}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{1834fa3d-ad81-4eba-8342-79e6f2897491}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{1834fb05-ad81-4eba-8342-79e6f2897491}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{1ba8db8f-ed3f-4dc7-806c-06106fb0201f}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{1ba8dc57-ed3f-4dc7-806c-06106fb0201f}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{1ba8db90-ed3f-4dc7-806c-06106fb0201f}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{1ba8dc58-ed3f-4dc7-806c-06106fb0201f}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{fbe52d1e-1fca-4575-aa93-e5d8d3102a82}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{fbe52de6-1fca-4575-aa93-e5d8d3102a82}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{e63fd703-aeed-4ada-bfdc-a574e59ebd5f}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{e63fd7cb-aeed-4ada-bfdc-a574e59ebd5f}"
+  ],
+  "IfcAirTerminalType.DIFFUSER": [
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{3f645375-7a31-4220-9bc7-da8315b87e06}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{3f64543d-7a31-4220-9bc7-da8315b87e06}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{fbe52d1e-1fca-4575-aa93-e5d8d3102a82}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{fbe52de6-1fca-4575-aa93-e5d8d3102a82}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{e63fd703-aeed-4ada-bfdc-a574e59ebd5f}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{e63fd7cb-aeed-4ada-bfdc-a574e59ebd5f}"
+  ],
+  "IfcAirTerminalType.REGISTER": [
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{1ba8db8e-ed3f-4dc7-806c-06106fb0201f}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{1ba8dc56-ed3f-4dc7-806c-06106fb0201f}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{28544fa8-76cc-4c95-aa0e-864a7f07d691}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{28545070-76cc-4c95-aa0e-864a7f07d691}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{a54a1cbd-38d0-4525-b055-ece8547397c9}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{a54a1d85-38d0-4525-b055-ece8547397c9}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{1834fa3d-ad81-4eba-8342-79e6f2897491}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{1834fb05-ad81-4eba-8342-79e6f2897491}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{1ba8db8f-ed3f-4dc7-806c-06106fb0201f}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{1ba8dc57-ed3f-4dc7-806c-06106fb0201f}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{1ba8db90-ed3f-4dc7-806c-06106fb0201f}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{1ba8dc58-ed3f-4dc7-806c-06106fb0201f}"
+  ],
+  "IfcUnitaryEquipment": [
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{61e8c8f0-73b5-46a7-8859-7482152d5c4a}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{61e8c9b8-73b5-46a7-8859-7482152d5c4a}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{f63cd4f2-d9f8-4c7e-8a43-7269122123ec}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{f63cd5ba-d9f8-4c7e-8a43-7269122123ec}"
+  ],
+  "IfcUnitaryEquipmentType.AIRHANDLER": [
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{61e8c8f0-73b5-46a7-8859-7482152d5c4a}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{61e8c9b8-73b5-46a7-8859-7482152d5c4a}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{f63cd4f2-d9f8-4c7e-8a43-7269122123ec}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{f63cd5ba-d9f8-4c7e-8a43-7269122123ec}"
+  ],
+  "IfcFan": [
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{6d7b9c7d-30e7-45d1-9c26-72d2dc7ed013}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{6d7b9d45-30e7-45d1-9c26-72d2dc7ed013}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{de8eb952-7495-4bdb-8953-34dd559b3d48}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{de8eba1a-7495-4bdb-8953-34dd559b3d48}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{6d84a242-7c0c-4c90-9b87-f335fc76f6d3}",
+    "{de4420ce-02b6-4b12-9cd7-9322118be8fe}.{6d84a30a-7c0c-4c90-9b87-f335fc76f6d3}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{eba828bf-f8df-4e26-bb68-94ec2e8276d3}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{eba82987-f8df-4e26-bb68-94ec2e8276d3}"
+  ],
+  "IfcFanType.CENTRIFUGALRADIAL": [
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{6d7b9c7d-30e7-45d1-9c26-72d2dc7ed013}",
+    "{d43c7509-a92c-4e32-bd2d-ba6dd8f5b7a1}.{6d7b9d45-30e7-45d1-9c26-72d2dc7ed013}"
+  ],
+  "IfcFanType.CENTRIFUGALBACKWARDINCLINEDCURVED": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{eba828bf-f8df-4e26-bb68-94ec2e8276d3}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{eba82987-f8df-4e26-bb68-94ec2e8276d3}"
+  ],
+  "IfcFilterType.AIRPARTICLEFILTER": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{5f446335-386f-4325-8448-abe83dac9f96}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{5f4463fd-386f-4325-8448-abe83dac9f96}"
+  ],
+  "IfcDamper": [
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{6da395f7-b8cb-4e69-9c85-dfe1b32da0e9}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{6da396bf-b8cb-4e69-9c85-dfe1b32da0e9}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{1490d26a-17f8-4a39-939b-fe6b3831e4c3}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{1490d332-17f8-4a39-939b-fe6b3831e4c3}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{f20b7a3e-cd63-4d17-9d06-94766af88ec7}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{f20b7b06-cd63-4d17-9d06-94766af88ec7}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{8637eaa9-5f3c-4c1f-b95f-e8a538c79852}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{8637eb71-5f3c-4c1f-b95f-e8a538c79852}"
+  ],
+  "IfcDamperType.CONTROLDAMPER": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{6da395f7-b8cb-4e69-9c85-dfe1b32da0e9}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{6da396bf-b8cb-4e69-9c85-dfe1b32da0e9}"
+  ],
+  "IfcDamperType.BACKDRAFTDAMPER": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{1490d26a-17f8-4a39-939b-fe6b3831e4c3}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{1490d332-17f8-4a39-939b-fe6b3831e4c3}"
+  ],
+  "IfcDamperType.SMOKEDAMPER": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{f20b7a3e-cd63-4d17-9d06-94766af88ec7}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{f20b7b06-cd63-4d17-9d06-94766af88ec7}"
+  ],
+  "IfcDamperType.FIREDAMPER": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{8637eaa9-5f3c-4c1f-b95f-e8a538c79852}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{8637eb71-5f3c-4c1f-b95f-e8a538c79852}"
+  ],
+  "IfcDuctSilencer": [
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{4f5d24da-ef79-46a4-870b-d7dfe179b209}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{4f5d25a2-ef79-46a4-870b-d7dfe179b209}"
+  ],
+  "IfcDuctSilencerType.NOTDEFINED": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{4f5d24da-ef79-46a4-870b-d7dfe179b209}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{4f5d25a2-ef79-46a4-870b-d7dfe179b209}"
+  ],
+  "IfcCoil": [
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{091713e0-81e7-400a-8311-f32ba51c9ffe}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{091714a8-81e7-400a-8311-f32ba51c9ffe}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{bc88094e-f591-4c0a-bb86-32fbf8b55057}",
+    "{47d0d93f-3c7b-4269-bf8a-de246e1724d0}.{bc880a16-f591-4c0a-bb86-32fbf8b55057}"
+  ],
+  "IfcCoilType.NOTDEFINED": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{091713e0-81e7-400a-8311-f32ba51c9ffe}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{091714a8-81e7-400a-8311-f32ba51c9ffe}"
+  ],
+  "IfcCoilType.DXCOOLINGCOIL": [
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{bc88094e-f591-4c0a-bb86-32fbf8b55057}",
+    "{6c671391-bfea-4e92-9753-8855c05640a0}.{bc880a16-f591-4c0a-bb86-32fbf8b55057}"
+  ],
+  "IfcDuctFitting": [
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{074a30dc-a655-4108-9254-eb9ff79fc0d1}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{074a31a4-a655-4108-9254-eb9ff79fc0d1}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{8a9a786e-38be-4b08-b704-5079cb25b416}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{8a9a7936-38be-4b08-b704-5079cb25b416}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{c62f8691-bbee-407a-b56f-6324234d7c5d}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{c62f8759-bbee-407a-b56f-6324234d7c5d}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{d4003564-57ef-455f-bb1a-ea1d1c20ac24}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{d400362c-57ef-455f-bb1a-ea1d1c20ac24}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{24d09d37-c3bc-40cd-90f3-ba1a30978cba}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{24d09dff-c3bc-40cd-90f3-ba1a30978cba}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{f8626c80-ad97-45a4-add6-b2835e0cf729}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{f8626d48-ad97-45a4-add6-b2835e0cf729}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{8cb22924-781b-4834-a32c-4c0e6f369429}",
+    "{77ffca60-b20e-49f0-b42f-4fdc9b1c825b}.{8cb229ec-781b-4834-a32c-4c0e6f369429}"
+  ],
+  "IfcDuctFittingType.BEND": [
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{074a30dc-a655-4108-9254-eb9ff79fc0d1}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{074a31a4-a655-4108-9254-eb9ff79fc0d1}"
+  ],
+  "IfcDuctFittingType.OBSTRUCTION": [
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{8cb22924-781b-4834-a32c-4c0e6f369429}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{8cb229ec-781b-4834-a32c-4c0e6f369429}"
+  ],
+  "IfcDuctFittingType.TRANSITION": [
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{8a9a786e-38be-4b08-b704-5079cb25b416}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{8a9a7936-38be-4b08-b704-5079cb25b416}"
+  ],
+  "IfcDuctFittingType.JUNCTION": [
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{c62f8691-bbee-407a-b56f-6324234d7c5d}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{c62f8759-bbee-407a-b56f-6324234d7c5d}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{d4003564-57ef-455f-bb1a-ea1d1c20ac24}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{d400362c-57ef-455f-bb1a-ea1d1c20ac24}"
+  ],
+  "IfcDuctFittingType.CONNECTOR": [
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{24d09d37-c3bc-40cd-90f3-ba1a30978cba}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{24d09dff-c3bc-40cd-90f3-ba1a30978cba}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{f8626c80-ad97-45a4-add6-b2835e0cf729}",
+    "{6c6821a0-ebb9-445b-84a2-ed9eb0938e4f}.{f8626d48-ad97-45a4-add6-b2835e0cf729}"
+  ],
+  "IfcLightFixture": [
+    "{793d3f7c-905d-4d85-a351-b152241dd2e7}.{4a1982c3-83d1-4f95-99bc-b207fbc04537}",
+    "{793d3f7c-905d-4d85-a351-b152241dd2e7}.{4a19838b-83d1-4f95-99bc-b207fbc04537}",
+    "{793d3f7c-905d-4d85-a351-b152241dd2e7}.{df460656-0b78-4ffe-9c5f-efe8a0d747fd}",
+    "{793d3f7c-905d-4d85-a351-b152241dd2e7}.{df46071e-0b78-4ffe-9c5f-efe8a0d747fd}",
+    "{793d3f7c-905d-4d85-a351-b152241dd2e7}.{ff628036-0240-4e20-b360-cf8ad0c7ad65}",
+    "{793d3f7c-905d-4d85-a351-b152241dd2e7}.{ff6280fe-0240-4e20-b360-cf8ad0c7ad65}",
+    "{793d3f7c-905d-4d85-a351-b152241dd2e7}.{f83aa8b1-c007-42a0-84f7-adfb35b93437}",
+    "{793d3f7c-905d-4d85-a351-b152241dd2e7}.{f83aa979-c007-42a0-84f7-adfb35b93437}"
+  ],
+  "IfcLightFixtureType.NOTDEFINED": [
+    "{1f85f676-bb99-4a6f-9f72-1789f2f7b362}.{ff628036-0240-4e20-b360-cf8ad0c7ad65}",
+    "{1f85f676-bb99-4a6f-9f72-1789f2f7b362}.{ff6280fe-0240-4e20-b360-cf8ad0c7ad65}",
+    "{1f85f676-bb99-4a6f-9f72-1789f2f7b362}.{f83aa8b1-c007-42a0-84f7-adfb35b93437}",
+    "{1f85f676-bb99-4a6f-9f72-1789f2f7b362}.{f83aa979-c007-42a0-84f7-adfb35b93437}"
+  ],
+  "IfcLightFixtureType.POINTSOURCE": [
+    "{1f85f676-bb99-4a6f-9f72-1789f2f7b362}.{df460656-0b78-4ffe-9c5f-efe8a0d747fd}",
+    "{1f85f676-bb99-4a6f-9f72-1789f2f7b362}.{df46071e-0b78-4ffe-9c5f-efe8a0d747fd}"
+  ],
+  "IfcLightFixtureType.DIRECTIONSOURCE": [
+    "{1f85f676-bb99-4a6f-9f72-1789f2f7b362}.{4a1982c3-83d1-4f95-99bc-b207fbc04537}",
+    "{1f85f676-bb99-4a6f-9f72-1789f2f7b362}.{4a19838b-83d1-4f95-99bc-b207fbc04537}"
+  ],
+  "IfcOutlet": [
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{1c2bbe00-cc32-4d02-9507-a1be5130b13c}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{1c2bbec8-cc32-4d02-9507-a1be5130b13c}"
+  ],
+  "IfcOutletType.POWEROUTLET": [
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{1c2bbe00-cc32-4d02-9507-a1be5130b13c}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{1c2bbec8-cc32-4d02-9507-a1be5130b13c}"
+  ],
+  "IfcSwitchingDevice": [
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{e76347cf-2e16-4367-a6b5-2f6c83450b65}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{e7634897-2e16-4367-a6b5-2f6c83450b65}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{b0dfdd30-e400-4b03-b572-18647b2f4bc8}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{b0dfddf8-e400-4b03-b572-18647b2f4bc8}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{d033e332-98a2-49de-88d7-103b4d773a03}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{d033e3fa-98a2-49de-88d7-103b4d773a03}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{d6d4f810-a4e1-4c31-8cf2-c460f7e45711}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{d6d4f8d8-a4e1-4c31-8cf2-c460f7e45711}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{51a2e5f6-fc57-4491-9973-9e0317e389bb}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{51a2e6be-fc57-4491-9973-9e0317e389bb}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{1423f55e-a33e-4f00-8e77-dc411605e9ac}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{04a6c320-f37b-4792-b199-bd7d1e0ad71d}"
+  ],
+  "IfcSwitchingDeviceType.CONTACTOR": [
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{e76347cf-2e16-4367-a6b5-2f6c83450b65}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{e7634897-2e16-4367-a6b5-2f6c83450b65}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{b0dfdd30-e400-4b03-b572-18647b2f4bc8}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{b0dfddf8-e400-4b03-b572-18647b2f4bc8}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{d033e332-98a2-49de-88d7-103b4d773a03}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{d033e3fa-98a2-49de-88d7-103b4d773a03}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{d6d4f810-a4e1-4c31-8cf2-c460f7e45711}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{d6d4f8d8-a4e1-4c31-8cf2-c460f7e45711}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{51a2e5f6-fc57-4491-9973-9e0317e389bb}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{51a2e6be-fc57-4491-9973-9e0317e389bb}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{1423f55e-a33e-4f00-8e77-dc411605e9ac}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{04a6c320-f37b-4792-b199-bd7d1e0ad71d}"
+  ],
+  "IfcJunctionBox": [
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{fd31603a-57bb-4a6c-b1ef-cdcec36df29c}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{fd316102-57bb-4a6c-b1ef-cdcec36df29c}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{e36337c7-131b-499a-a11c-54541e64c754}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{e363388f-131b-499a-a11c-54541e64c754}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{727a4e64-b69e-4d8f-b77d-c789e56dd690}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{727a4f2c-b69e-4d8f-b77d-c789e56dd690}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{5540b758-f8ab-4b37-b10b-c48e3a62393e}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{5540b820-f8ab-4b37-b10b-c48e3a62393e}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{da38a3f7-9535-4e1e-b379-17fe7c6ad4ec}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{da38a4bf-9535-4e1e-b379-17fe7c6ad4ec}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{dce11ab4-d872-4fcd-97cf-22bd4529355c}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{73c1843d-46a2-481e-9cd5-aed709ea9d56}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{686cc5ae-b506-4af7-8701-285d14814de3}",
+    "{b00d5c25-92a8-4409-a3b7-7c37ed792c06}.{686cc676-b506-4af7-8701-285d14814de3}"
+  ],
+  "IfcJunctionBoxType.NOTDEFINED": [
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{fd31603a-57bb-4a6c-b1ef-cdcec36df29c}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{fd316102-57bb-4a6c-b1ef-cdcec36df29c}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{e36337c7-131b-499a-a11c-54541e64c754}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{e363388f-131b-499a-a11c-54541e64c754}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{727a4e64-b69e-4d8f-b77d-c789e56dd690}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{727a4f2c-b69e-4d8f-b77d-c789e56dd690}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{5540b758-f8ab-4b37-b10b-c48e3a62393e}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{5540b820-f8ab-4b37-b10b-c48e3a62393e}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{da38a3f7-9535-4e1e-b379-17fe7c6ad4ec}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{da38a4bf-9535-4e1e-b379-17fe7c6ad4ec}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{dce11ab4-d872-4fcd-97cf-22bd4529355c}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{73c1843d-46a2-481e-9cd5-aed709ea9d56}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{686cc5ae-b506-4af7-8701-285d14814de3}",
+    "{a6e0ba72-acbd-4423-9afc-04d84a09211a}.{686cc676-b506-4af7-8701-285d14814de3}"
+  ],
+  "IfcElectricDistributionBoard": [
+    "{96da9155-43c1-42b8-bba2-b4f61fa43acc}.{5245bd39-b872-493f-8aa9-93cb4b37f5aa}",
+    "{96da9155-43c1-42b8-bba2-b4f61fa43acc}.{5245be01-b872-493f-8aa9-93cb4b37f5aa}",
+    "{96da9155-43c1-42b8-bba2-b4f61fa43acc}.{a9e29735-b676-4fc8-b946-f2fdda6657dc}",
+    "{96da9155-43c1-42b8-bba2-b4f61fa43acc}.{a9e297fd-b676-4fc8-b946-f2fdda6657dc}",
+    "{96da9155-43c1-42b8-bba2-b4f61fa43acc}.{f7946307-d720-4ca3-a618-afd50410f9ef}",
+    "{96da9155-43c1-42b8-bba2-b4f61fa43acc}.{f79463cf-d720-4ca3-a618-afd50410f9ef}",
+    "{96da9155-43c1-42b8-bba2-b4f61fa43acc}.{2fea1683-d78d-41b4-a3f5-82d931e3c482}",
+    "{96da9155-43c1-42b8-bba2-b4f61fa43acc}.{2fea174b-d78d-41b4-a3f5-82d931e3c482}"
+  ],
+  "IfcElectricDistributionBoardType.CONSUMERUNIT": [
+    "{861c0037-7797-43a9-96e7-833a7a2c6ea4}.{5245bd39-b872-493f-8aa9-93cb4b37f5aa}",
+    "{861c0037-7797-43a9-96e7-833a7a2c6ea4}.{5245be01-b872-493f-8aa9-93cb4b37f5aa}"
+  ],
+  "IfcElectricDistributionBoardType.DISTRIBUTIONBOARD": [
+    "{861c0037-7797-43a9-96e7-833a7a2c6ea4}.{a9e29735-b676-4fc8-b946-f2fdda6657dc}",
+    "{861c0037-7797-43a9-96e7-833a7a2c6ea4}.{a9e297fd-b676-4fc8-b946-f2fdda6657dc}",
+    "{861c0037-7797-43a9-96e7-833a7a2c6ea4}.{f7946307-d720-4ca3-a618-afd50410f9ef}",
+    "{861c0037-7797-43a9-96e7-833a7a2c6ea4}.{f79463cf-d720-4ca3-a618-afd50410f9ef}"
+  ],
+  "IfcElectricDistributionBoardType.SWITCHBOARD": [
+    "{861c0037-7797-43a9-96e7-833a7a2c6ea4}.{2fea1683-d78d-41b4-a3f5-82d931e3c482}",
+    "{861c0037-7797-43a9-96e7-833a7a2c6ea4}.{2fea174b-d78d-41b4-a3f5-82d931e3c482}"
+  ],
+  "IfcPipeSegment": [
+    "{838cc9f6-e3d8-4132-af6f-c58df0f8d037}"
+  ],
+  "IfcPipeSegmentType.NOTDEFINED": [
+    "{9d6dffb9-4828-40d8-8529-bf5cd2b58c4e}"
+  ],
+  "IfcDuctSegment": [
+    "{06cc88ee-9a67-4626-9c34-dde03c331a74}"
+  ],
+  "IfcDuctSegmentType.NOTDEFINED": [
+    "{a999f05a-d730-42e7-bfc8-e4433ebace78}"
+  ],
+  "IfcCableSegment": [
+    "{83de45e6-4793-49ec-8b9e-65a2438f36de}"
+  ],
+  "IfcCableSegmentType.NOTDEFINED": [
+    "{33fb4b37-83f9-422a-81d4-640a152c619e}"
+  ],
+  "IfcDistributionSystem.DOMESTICCOLDWATER": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{5fb17679-fb58-4334-ad64-61ee70f93c73}"
+  ],
+  "IfcDistributionSystem.DOMESTICHOTWATER": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{5d30e610-c90e-4131-8420-4e1407d927a2}"
+  ],
+  "IfcDistributionSystem.SEWAGE": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{846b0ccf-2d2c-4969-9d4d-80c6a99eca7c}"
+  ],
+  "IfcDistributionSystem.GAS": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{253272fd-8f97-44f9-bd8a-eba22685b48e}"
+  ],
+  "IfcDistributionSystem.FIREPROTECTION": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{79c87e30-e47a-417e-bc42-e4e975e32e95}"
+  ],
+  "IfcDistributionSystem.HEATING": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{bd8b0304-08d5-46f2-8302-1f01000703f5}"
+  ],
+  "IfcDistributionSystem.RAINWATER": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{f5c48227-a0ee-4192-86a9-ccb2eb0b6718}"
+  ],
+  "IfcDistributionSystem.VENTILATION": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{d30973b8-a244-4c4f-91a9-a033ed2336b6}"
+  ],
+  "IfcDistributionSystem.EXHAUST": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{d79acdf6-7b03-4d3b-99ad-baa026cba613}"
+  ],
+  "IfcDistributionSystem.VACUUM": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{6e5c471d-4314-4a62-9872-9c1b6be94424}"
+  ],
+  "IfcDistributionCircuit.LIGHTING": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{b52d3d9e-7fad-4806-9fb6-43c4824a0866}"
+  ],
+  "IfcDistributionCircuit.ELECTRICAL": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{57464fee-9d42-4854-b665-12c149005bd1}"
+  ],
+  "IfcDistributionCircuit.USERDEFINED": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{68e42245-b06c-4698-8a91-c4238c3de0e4}"
+  ],
+  "IfcDistributionSystem.USERDEFINED": [
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{a3bd2140-f051-441a-8e6e-50cfd32e627a}",
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{b10b5bf4-29a6-4000-ad13-b65d5c2145da}",
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{101c7d57-93cf-47e0-8677-378f97299662}",
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{6a969910-fc2b-44d3-b474-928955d4ca4d}",
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{534ee7c8-1a8b-4c13-aed0-4e5d2d405776}",
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{1ee4b2e9-6176-4063-888a-e1066956df92}",
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{708e1a09-58f4-47f9-9717-da2dee5f0e51}",
+    "{e65c5fad-d4d3-4f43-bd01-b28d0eb95571}.{4a3350ce-d47a-43c4-a4a5-a885f709852a}"
+  ],
+  "IfcCovering.INSULATION": [
+    "{517a337a-58d5-46ff-81b8-65cf0389a191}"
+  ],
+  "IfcGroup": [
+    "{f9c7f77a-5644-4ed3-85ce-9ea21881d76a}"
+  ]
+}

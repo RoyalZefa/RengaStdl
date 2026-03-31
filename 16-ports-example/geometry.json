@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "defaultName": "   ",
+    "defaultName": " Имя  ",
     "description": " STDL-       ",
     "version": "1.0.0",
     "author": "Alex"
@@ -8,11 +8,11 @@
   "styleParameters": [
     {
       "name": "Dimensions",
-      "text": "",
+      "text": "Раздел 1",
       "params": [
         {
           "name": "BaseWidth",
-          "text": " ",
+          "text": " Ширина",
           "type": "Length",
           "default": 120,
           "min": 20,
@@ -20,7 +20,7 @@
         },
         {
           "name": "ShoulderHeight",
-          "text": "  ",
+          "text": "Высота",
           "type": "Length",
           "default": 40,
           "min": 5,
@@ -28,7 +28,7 @@
         },
         {
           "name": "TopWidth",
-          "text": "  ",
+          "text": "Ширина общая",
           "type": "Length",
           "default": 60,
           "min": 10,
@@ -36,7 +36,7 @@
         },
         {
           "name": "TotalHeight",
-          "text": " ",
+          "text": " Высота общая",
           "type": "Length",
           "default": 100,
           "min": 20,
@@ -44,7 +44,7 @@
         },
         {
           "name": "Depth",
-          "text": " ",
+          "text": "Глубина ",
           "type": "Length",
           "default": 40,
           "min": 5,
@@ -54,11 +54,11 @@
     },
     {
       "name": "Ports",
-      "text": "",
+      "text": "Параметры портов",
       "params": [
         {
           "name": "SidePortHeight",
-          "text": "  ",
+          "text": " Длинна ",
           "type": "Length",
           "default": 20,
           "min": 5,
@@ -66,7 +66,7 @@
         },
         {
           "name": "DepthPosition",
-          "text": "   ",
+          "text": "  Позиция ",
           "type": "Length",
           "default": 20,
           "min": 0,
@@ -78,23 +78,23 @@
   "ports": [
     {
       "name": "LeftPort",
-      "text": " ",
+      "text": "Левый порт ",
       "systemCategories": [
         "OtherElectricalSystem"
       ]
     },
     {
       "name": "RightPort",
-      "text": " ",
+      "text": "ПРавый порт",
       "systemCategories": [
         "OtherElectricalSystem"
       ]
     },
     {
       "name": "TopPort",
-      "text": " ",
+      "text": " Верхний порт",
       "systemCategories": [
-        "OtherElectricalSystem"
+        "Firewater"
       ]
     }
   ]

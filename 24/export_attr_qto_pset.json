@@ -1,0 +1,1003 @@
+{
+  "name": "Renga View",
+  "type": "export",
+  "version": "4",
+  "IfcProject": {
+    "attributes": {
+      "Name": "{af92a816-58a7-436e-9787-5024ea153d8e}",
+      "LongName": "{38bfab44-f936-483b-adaa-cb191efd8d2a}",
+      "Phase": "{1e119998-d9ce-4026-bb0d-d314739cda5b}",
+      "Description": "{0f018d8f-657f-4b97-92af-dfad9659673d}",
+      "TrueNorth": "TrueNorth"
+    }
+  },
+  "IfcSite": {
+    "attributes": {
+      "Name": "{300535fd-9094-45b3-b122-44cf602083af}",
+      "LongName": "{8abe4c6a-bf61-4f76-bb48-5834abdd32fc}",
+      "Description": "{843d4f8f-7575-419e-90c3-0cc391a47e0c}",
+      "RefElevation": "RefElevation",
+      "RefLatitude": "RefLatitude",
+      "RefLongitude": "RefLongitude"
+    },
+    "psets": {
+      "Pset_SiteCommon": {
+        "Reference": "{300535fd-9094-45b3-b122-44cf602083af}"
+      }
+    }
+  },
+  "IfcBuilding": {
+    "attributes": {
+      "Name": "{17a54788-d287-4fdc-9114-0ca6aec0c2e1}",
+      "LongName": "{3f2c8772-2f49-4c8e-a473-98815bacb2c1}",
+      "Description": "{88fff372-c724-47b4-ac2f-8524980d1f87}",
+      "ElevationOfRefHeight": "ElevationOfRefHeight",
+      "ElevationOfTerrain": "ElevationOfTerrain"
+    },
+    "psets": {
+      "Pset_BuildingCommon": {
+        "BuildingID": "{17a54788-d287-4fdc-9114-0ca6aec0c2e1}"
+      }
+    }
+  },
+  "IfcBuildingStorey": {
+    "attributes": {
+      "Name": "{1bb1addf-a3c0-4356-9525-107ea7df1513}",
+      "Elevation": "{440a20f8-42b8-4a5f-9000-39ef58e0302b}"
+    },
+    "psets": {
+      "Pset_BuildingStoreyCommon": {
+        "Reference": "{1bb1addf-a3c0-4356-9525-107ea7df1513}"
+      }
+    }
+  },
+  "IfcSpace": {
+    "attributes": {
+      "Name": "{b44d9acd-bd51-4ca4-96a8-2a3f92a685b5}",
+      "LongName": "{aa18be09-18ef-43ec-b89d-3b245874dc39}",
+      "ElevationWithFlooring": "{e17d805b-0164-480a-849b-64fd022ec17a}"
+    },
+    "psets": {
+      "Pset_SpaceCoveringRequirements": {
+        "FloorCovering": "{3713baac-2f29-4a49-8c6e-f191da165e2e}",
+        "WallCovering": "{f8af86f9-9bf5-465f-8791-03e8a19fbbd5}",
+        "CeilingCovering": "{9839b619-8cc9-445c-a108-799e6d962eab}"
+      }
+    },
+    "qsets": {
+      "Qto_SpaceBaseQuantities": {
+        "Height": "{e8f1a615-3b0c-401c-ad1f-7526f2f073e2}",
+        "GrossPerimeter": "{eb5bd744-3c80-46a2-b491-2ca4f11dd13d}",
+        "NetPerimeter": "{3560988c-ca06-4028-a821-726bab038536}",
+        "GrossFloorArea": "{89ab9b57-91b1-4f4a-9a45-9c935882231d}",
+        "NetFloorArea": "{ea60d526-b527-4896-8e4c-c84a8462b3cc}",
+        "GrossWallArea": "{4144973d-c4b7-4f11-ab48-8794c9beae43}",
+        "NetWallArea": "{c2975e1e-3293-4ad1-8136-316d191b75cc}",
+        "GrossCeilingArea": "{3e5395c2-5f6b-4d58-8349-1419a29a47b9}",
+        "NetCeilingArea": "{e6265c5c-7692-49bd-b7a1-0a5f452feedd}",
+        "GrossVolume": "{da41f09a-0e02-40c7-9547-2a0f55b60078}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}"
+      }
+    }
+  },
+  "IfcMaterial": {
+	  "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+	  "psets": {
+      "Pset_MaterialCommon": {
+        "MassDensity": "{469788e6-d7a6-4f73-90cc-fa756b14bc5c}"
+      },
+      "Pset_MaterialThermal": {
+        "ThermalConductivity": "{7a332a5a-36c6-498d-9625-c3946f05a8df}"
+      }
+    }
+  },
+  "IfcDistributionSystem": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_DistributionSystemCommon": {
+        "Reference": "{c8a35625-8e60-41ce-90a0-64ec2fbcdc80}"
+      }
+    }
+  },
+  "IfcDistributionCircuit": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_DistributionSystemCommon": {
+        "Reference": "{c8a35625-8e60-41ce-90a0-64ec2fbcdc80}"
+      }
+    }
+  },
+  "IfcWall": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_WallCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "FireRating": "{5c0fffed-5c9b-4540-bd80-6227cf87d635}",
+        "ThermalTransmittance": "{eb3cbb1b-18ef-4299-aace-32bc2109e325}"
+      },
+      "Pset_ReinforcementBarPitchOfWall": {
+        "BarAllocationType": "{8f747ef8-457b-43e7-bc03-afbddcb5a40f}"
+      }
+    },
+    "qsets": {
+      "Qto_WallBaseQuantities": {
+        "Length": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}",
+        "Width": "{d74737a8-dfce-4966-b044-2c20ae9f52fb}",
+        "Height": "{e8f1a615-3b0c-401c-ad1f-7526f2f073e2}",
+        "NetFootprintArea": "{65bf3096-b610-4fb0-b603-9e1fd5c21095}",
+        "NetSideArea": "{6d692b46-fc72-4696-a55e-1d3469aa9d8e}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}",
+        "NetWeight": "{f9230d52-3d8d-42f0-b498-5f8037610c01}"
+      }
+    }
+  },
+  "IfcColumn": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_ColumnCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "Roll": "{4ed7f407-ee2c-4746-87fa-a56adbf0ce76}",
+        "FireRating": "{5c0fffed-5c9b-4540-bd80-6227cf87d635}"
+      },
+      "Pset_ReinforcementBarPitchOfColumn": {
+        "ReinforcementBarType": "{8f747ef8-457b-43e7-bc03-afbddcb5a40f}"
+      }
+    },
+    "qsets": {
+      "Qto_ColumnBaseQuantities": {
+        "Length": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}",
+        "CrossSectionArea": "{5f1efe77-5e2e-450a-a426-efef5b346ecc}",
+        "OuterSurfaceArea": "{de1b2227-310d-4652-a793-c799c5be7036}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}",
+        "NetWeight": "{f9230d52-3d8d-42f0-b498-5f8037610c01}"
+      }
+    }
+  },
+  "IfcColumnType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    }
+  },
+  "IfcBeam": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_BeamCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "Roll": "{2786fb56-e27d-45f3-97af-bbd4ee816e96}",
+        "FireRating": "{5c0fffed-5c9b-4540-bd80-6227cf87d635}"
+      }
+    },
+    "qsets": {
+      "Qto_BeamBaseQuantities": {
+        "Length": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}",
+        "CrossSectionArea": "{5f1efe77-5e2e-450a-a426-efef5b346ecc}",
+        "OuterSurfaceArea": "{de1b2227-310d-4652-a793-c799c5be7036}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}",
+        "NetWeight": "{f9230d52-3d8d-42f0-b498-5f8037610c01}"
+      }
+    }
+  },
+  "IfcBeamType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    }
+  },
+  "IfcSlab": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_SlabCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "FireRating": "{5c0fffed-5c9b-4540-bd80-6227cf87d635}",
+        "ThermalTransmittance": "{eb3cbb1b-18ef-4299-aace-32bc2109e325}"
+      },
+      "Pset_ReinforcementBarPitchOfSlab": {
+        "Description": "{8f747ef8-457b-43e7-bc03-afbddcb5a40f}"
+      }
+    },
+    "qsets": {
+      "Qto_SlabBaseQuantities": {
+        "Width": "{d74737a8-dfce-4966-b044-2c20ae9f52fb}",
+        "Perimeter": "{2c072284-132e-4440-8178-e04f64b73320}",
+        "NetArea": "{0aab4bb0-4645-48d6-9dcb-2aca48577e47}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}",
+        "NetWeight": "{f9230d52-3d8d-42f0-b498-5f8037610c01}"
+      }
+    }
+  },
+  "IfcRoof": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_RoofCommon": {
+        "Reference": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}",
+        "ThermalTransmittance": "{eb3cbb1b-18ef-4299-aace-32bc2109e325}"
+      }
+    },
+    "qsets": {
+      "Qto_RoofBaseQuantities": {
+        "GrossArea": "{0aab4bb0-4645-48d6-9dcb-2aca48577e47}"
+      }
+    }
+  },
+  "IfcStairFlight": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_StairFlightCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "NumberOfRiser": "{e1052ec8-bbfe-4a20-b093-c2752613ae80}",
+        "NumberOfTreads": "{5cb8445e-8543-484a-b4ba-0f3343aa1f3a}",
+        "RiserHeight": "{2bbf0e20-8888-40ce-bebb-581eea1fe99a}"
+      }
+    },
+    "qsets": {
+      "Qto_StairFlightBaseQuantities": {
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}"
+      }
+    }
+  },
+  "IfcRampFlight": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_RampFlightCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "ClearWidth": "{ce85dc8d-abd4-4c5c-971e-c5dc279250da}",
+        "Slope": "{17b758b8-19ae-4779-a264-8419906838d1}"
+      }
+    },
+    "qsets": {
+      "Qto_RampFlightBaseQuantities": {
+        "Width": "{17b09070-9ffe-4b1f-bcc9-6cb23fb1d6ec}",
+        "NetArea": "{ea60d526-b527-4896-8e4c-c84a8462b3cc}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}"
+      }
+    }
+  },
+  "IfcVoidingFeature": {
+	"attributes": {
+	  "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+	  "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcRailing": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_RailingCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "Height": "{1c91c0d5-9fc1-4ba4-966f-f38ce4c05b33}"
+      }
+    },
+    "qsets": {
+      "Qto_RailingBaseQuantities": {
+        "Length": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}"
+      }
+    }
+  },
+  "IfcFooting.PAD_FOOTING": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_FootingCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    },
+    "qsets": {
+      "Qto_FootingBaseQuantities": {
+        "Length": "{9210a311-a2f8-4741-aa51-bf04ae4d8425}",
+        "Width": "{c5501a9d-2f69-4990-bbf2-bfdaaf6e16da}",
+        "Height": "{ff5dea01-7a9a-447b-9542-14b651dd8484}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}",
+        "NetWeight": "{f9230d52-3d8d-42f0-b498-5f8037610c01}"
+      }
+    }
+  },
+  "IfcFooting.STRIP_FOOTING": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_FootingCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    },
+    "qsets": {
+      "Qto_FootingBaseQuantities": {
+        "Width": "{c5501a9d-2f69-4990-bbf2-bfdaaf6e16da}",
+        "Height": "{ff5dea01-7a9a-447b-9542-14b651dd8484}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}",
+        "NetWeight": "{f9230d52-3d8d-42f0-b498-5f8037610c01}"
+      }
+    }
+  },
+  "IfcWindow": {
+    "attributes": {
+      "Name": "{60F779E0-BC34-4AAD-89CE-89F9BDFEF3E2}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_WindowCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "ThermalTransmittance": "{eb3cbb1b-18ef-4299-aace-32bc2109e325}",
+        "HasSillExternal": "{bc6373ad-b00e-4422-b57c-675bf425b363}",
+        "HasSillInternal": "{0bbd7d96-686d-445e-b3ca-6f4f7c93c779}"
+      },
+      "Pset_Final": {
+        "Марка1": "{b6cbaee0-9398-41a3-ae1b-32f8419a99ae}"
+      }
+    },
+    "qsets": {
+      "Qto_WindowBaseQuantities": {
+        "Width": "{c5501a9d-2f69-4990-bbf2-bfdaaf6e16da}",
+        "Height": "{ff5dea01-7a9a-447b-9542-14b651dd8484}",
+        "Perimeter": "{2c072284-132e-4440-8178-e04f64b73320}",
+        "Area": "{025f4cef-7b6d-45d9-99e6-2cd851306e03}"
+      }
+    }
+  },
+  "IfcWindowType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_WindowCommon": {
+        "FireRating": "{5c0fffed-5c9b-4540-bd80-6227cf87d635}"
+      }
+    }
+  },
+  "IfcDoor": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_DoorCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "ThermalTransmittance": "{eb3cbb1b-18ef-4299-aace-32bc2109e325}"
+      }
+    },
+    "qsets": {
+      "Qto_DoorBaseQuantities": {
+        "Width": "{c5501a9d-2f69-4990-bbf2-bfdaaf6e16da}",
+        "Height": "{ff5dea01-7a9a-447b-9542-14b651dd8484}",
+        "Perimeter": "{2c072284-132e-4440-8178-e04f64b73320}",
+        "Area": "{025f4cef-7b6d-45d9-99e6-2cd851306e03}"
+      }
+    }
+  },
+  "IfcDoorType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_DoorCommon": {
+        "FireRating": "{5c0fffed-5c9b-4540-bd80-6227cf87d635}"
+      }
+    }
+  },
+  "IfcPlate": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_PlateCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    },
+    "qsets": {
+      "Qto_PlateBaseQuantities": {
+        "Width": "{d74737a8-dfce-4966-b044-2c20ae9f52fb}",
+        "Perimeter": "{2c072284-132e-4440-8178-e04f64b73320}",
+        "GrossArea": "{63afa0b2-3dc4-4500-9ca5-f46fc0ae935a}",
+        "NetArea": "{0aab4bb0-4645-48d6-9dcb-2aca48577e47}",
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}",
+        "NetWeight": "{f9230d52-3d8d-42f0-b498-5f8037610c01}"
+      }
+    }
+  },
+  "IfcPlateType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    }
+  },
+  "IfcOpeningElement": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_OpeningElementCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    },
+    "qsets": {
+      "Qto_OpeningElementBaseQuantities": {
+        "Width": "{c5501a9d-2f69-4990-bbf2-bfdaaf6e16da}",
+        "Height": "{ff5dea01-7a9a-447b-9542-14b651dd8484}",
+        "Depth": "{d74737a8-dfce-4966-b044-2c20ae9f52fb}",
+        "Area": "{025f4cef-7b6d-45d9-99e6-2cd851306e03}",
+        "Volume": "{6e63058d-0ab3-4abd-a9ba-574e1746c5ad}"
+      }
+    }
+  },
+  "IfcElementAssembly": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_ElementAssemblyCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcBuildingElementProxy": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_BuildingElementProxyCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    },
+    "qsets": {
+      "Qto_BuildingElementProxyQuantities": {
+        "NetVolume": "{043401f3-0b2f-402a-aca0-826436822405}"
+      }
+    }
+  },
+  "IfcBuildingElementProxyType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    }
+  },
+  "IfcReinforcingBar": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcDistributionFlowElement": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcDistributionFlowElementType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    }
+  },
+  "IfcSanitaryTerminal": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_SanitaryTerminalTypeCommon": {
+        "NominalLength": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}",
+        "NominalWidth": "{17b09070-9ffe-4b1f-bcc9-6cb23fb1d6ec}",
+        "NominalDepth": "{e8f1a615-3b0c-401c-ad1f-7526f2f073e2}"
+      }
+    }
+  },
+  "IfcSanitaryTerminalType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_SanitaryTerminalTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcWasteTerminal": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcWasteTerminalType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_WasteTerminalTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcTank": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcTankType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_TankTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcBoiler": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcBoilerType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_BoilerTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcSpaceHeater": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "qsets": {
+      "Qto_SpaceHeaterBaseQuantities": {
+        "TotalSurfaceArea": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}"
+      }
+    }
+  },
+  "IfcSpaceHeaterType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_SpaceHeaterTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "BodyMass": "{1e22c15d-7fe6-40c9-9248-c11b05f42d33}"
+      }
+    }
+  },
+  "IfcPump": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcPumpType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_PumpTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcElectricAppliance": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcElectricApplianceType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_ElectricApplianceTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcValve": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcValveType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_ValveTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcFlowMeter": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcFlowMeterType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_FlowMeterTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcFilter": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcFilterType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_FilterTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "Weight": "{1e22c15d-7fe6-40c9-9248-c11b05f42d33}"
+      }
+    }
+  },
+  "IfcFlowInstrument": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcFlowInstrumentType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_FlowInstrumentTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcPipeFitting": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcPipeFittingType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_PipeFittingTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcPipeSegment": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_PipeSegmentTypeCommon": {
+        "InnerDiameter": "{a1c5b3e9-3f6c-487a-9dce-5d46a6d15650}.{fcc40878-8bf1-4467-9ff0-cd0c3c4532bd}",
+        "OuterDiameter": "{a1c5b3e9-3f6c-487a-9dce-5d46a6d15650}.{174bb053-840f-46bd-8e15-280dcff91e13}"
+      }
+    },
+    "qsets": {
+      "Qto_PipeSegmentBaseQuantities": {
+        "Length": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}",
+        "GrossCrossSectionArea": "{5F1EFE77-5E2E-450A-A426-EFEF5B346ECC}",
+        "NetCrossSectionArea": "{b38f4236-165a-45ab-8b96-ec0175343404}",
+        "OuterSurfaceArea": "{de1b2227-310d-4652-a793-c799c5be7036}",
+        "NetWeight": "{f9230d52-3d8d-42f0-b498-5f8037610c01}"
+      }
+    }
+  },
+  "IfcPipeSegmentType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_PipeSegmentTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "InnerDiameter": "{fcc40878-8bf1-4467-9ff0-cd0c3c4532bd}",
+        "OuterDiameter": "{174bb053-840f-46bd-8e15-280dcff91e13}"
+      }
+    }
+  },
+  "IfcDuctSegment": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_DuctSegmentTypeCommon": {
+        "NominalDiameterOrWidth": "{3801dadb-62aa-4c7d-81a5-9e326973f3f0}.{8b9de7da-35e9-4414-8fd7-7bb3c0e7b026}",
+        "NominalHeight": "{3801dadb-62aa-4c7d-81a5-9e326973f3f0}.{bcaf1283-bd77-4e5f-819c-d38cea395d0f}"
+      }
+    },
+    "qsets": {
+      "Qto_DuctSegmentBaseQuantities": {
+        "Length": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}",
+        "GrossCrossSectionArea": "{5F1EFE77-5E2E-450A-A426-EFEF5B346ECC}",
+        "NetCrossSectionArea": "{b38f4236-165a-45ab-8b96-ec0175343404}",
+        "OuterSurfaceArea": "{de1b2227-310d-4652-a793-c799c5be7036}"
+      }
+    }
+  },
+  "IfcDuctSegmentType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_DuctSegmentTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "NominalDiameterOrWidth": "{8b9de7da-35e9-4414-8fd7-7bb3c0e7b026}",
+        "NominalHeight": "{bcaf1283-bd77-4e5f-819c-d38cea395d0f}"
+      }
+    }
+  },
+  "IfcFan": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_FanOccurrence": {
+        "ApplicationOfFan": "{f1483fce-fada-4751-8a9a-c7f1ac2cbc65}"
+      }
+    }
+  },
+  "IfcFanType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_FanTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcUnitaryEquipment": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcUnitaryEquipmentType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_UnitaryEquipmentTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcAirTerminal": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_AirTerminalOccurrence": {
+        "AirflowType": "{f1483fce-fada-4751-8a9a-c7f1ac2cbc65}"
+      }
+    }
+  },
+  "IfcAirTerminalType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_AirTerminalTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcDuctSilencer": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcDuctSilencerType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_DuctSilencerTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}",
+        "Weight": "{1e22c15d-7fe6-40c9-9248-c11b05f42d33}"
+      }
+    }
+  },
+  "IfcDamper": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcDamperType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_DamperTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcCoil": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcCoilType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_CoilTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcDuctFitting": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcDuctFittingType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_DuctFittingTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcCableSegment": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    },
+    "psets": {
+      "Pset_ElectricalDeviceCommon": {
+        "RatedVoltage": "{5560fb09-ae5b-4880-981a-1b78a4cefe82}.{afefe768-042d-4407-8433-a05db2fad789}"
+      }
+    },
+    "qsets": {
+      "Qto_CableSegmentBaseQuantities": {
+        "Length": "{452f15e3-50e0-4da6-9155-567a00d2d5b7}"
+      }
+    }
+  },
+  "IfcLightFixture": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcLightFixtureType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_LightFixtureTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcSwitchingDevice": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcSwitchingDeviceType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_SwitchingDeviceTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcOutlet": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcOutletType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_OutletTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcJunctionBox": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcJunctionBoxType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_JunctionBoxTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcElectricDistributionBoard": {
+    "attributes": {
+      "Name": "{a4bc7f50-463e-48f6-b829-795d4e0a1160}",
+      "Tag": "{99ffedaa-c1bb-4a48-b9c2-4ecc23866830}"
+    }
+  },
+  "IfcElectricDistributionBoardType": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    },
+    "psets": {
+      "Pset_ElectricDistributionBoardTypeCommon": {
+        "Reference": "{ff2e904e-04e4-4f6e-b5d4-a6fa7a7d2cda}"
+      }
+    }
+  },
+  "IfcCovering": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    }
+  },
+  "IfcGroup": {
+    "attributes": {
+      "Name": "{7b57355d-ed38-4ad3-91db-ab538a9c1d98}"
+    }
+  }
+}

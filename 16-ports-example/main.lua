@@ -31,13 +31,13 @@ local placement = Placement3D(
 )
 
 local solid = Extrude(profile, ExtrusionParameters(depth), placement)
+detailedGeometry:AddSolid(solid)
 
 local detailedGeometry = ModelGeometry()
-detailedGeometry:AddSolid(solid)
 Style.SetDetailedGeometry(detailedGeometry)
 
-local clampedDepthPosition = math.max(0, math.min(depthPosition, depth))
-local clampedSidePortHeight = math.max(0, math.min(sidePortHeight, shoulderHeight))
+local clampedDepthPosition = 20
+local clampedSidePortHeight = 20
 
 local leftPortPlacement = Placement3D(
     Point3D(-halfBaseWidth, clampedDepthPosition, clampedSidePortHeight),

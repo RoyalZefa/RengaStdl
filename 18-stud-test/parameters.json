@@ -69,9 +69,8 @@
             "text": "Водяное пожаротушение",
             "flowDirection": "InletAndOutlet",
             "systemCategories": [
-                "DomesticFirewater"
+                "Firewater"
             ]
         }
     ]
 }
-
