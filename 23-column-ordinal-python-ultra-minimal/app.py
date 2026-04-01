@@ -7,14 +7,14 @@ project = app.Project
 objects = project.Model.GetObjects()
 
 column_type_id = "{D9EE2442-E807-42FB-8FE5-9DCFE543035D}"
-mark_group_id = "{BE8B433A-EE51-49DE-8189-5F6476783E22}"
-ordinal_id = "{02E22308-EE6E-4D47-8B87-CBF23AA97548}"
+mark_group_id = "{be8b433a-ee51-49de-8189-5f6476783e22}"
+ordinal_id = "{02e22308-ee6e-4d47-8b87-cbf23aa97548}"
 
 groups = {}
 
 for i in range(objects.Count):
     obj = objects.GetByIndex(i)
-    if obj.ObjectTypeS == column_type_id:
+    if str(obj.ObjectTypeS).lower() == column_type_id.lower():
         mark = str(obj.GetProperties().GetS(mark_group_id).GetStringValue())
         groups.setdefault(mark, []).append((int(obj.Id), obj))
 
